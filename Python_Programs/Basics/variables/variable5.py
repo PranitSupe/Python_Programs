@@ -13,3 +13,9 @@ a = b = c = 100
 print(a)
 print(b)
 print(c)
+
+#Constant Variable
+
+PI = 3.14
+
+print(PI)

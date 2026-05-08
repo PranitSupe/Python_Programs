@@ -1,3 +1,5 @@
+#arithmetic calculations:
+
 print("Power of number:")
 x=5.6
 print("square of 5.6 is:", x**2)

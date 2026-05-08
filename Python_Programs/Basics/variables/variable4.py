@@ -1,3 +1,5 @@
+# print Variable and  its Type
+
 price = 99.99
 age =45
 name="rahul"
