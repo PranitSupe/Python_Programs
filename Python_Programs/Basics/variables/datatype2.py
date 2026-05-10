@@ -36,3 +36,27 @@ print(my_list)
 print(type(my_list))
 
 print("-------------------------")
+
+my_tuple = (1, 2, 3)
+print(type(my_tuple))
+
+print("-------------------------")
+
+my_set = {1, 2, 3}
+print(type(my_set))
+
+print("-------------------------")
+
+student = {
+    "name": "Pranit",
+    "age": 20
+}
+
+print(type(student))
+
+print("-------------------------")
+
+value = input("Enter something: ")
+print(type(value))
+
+print("-------------------------")
