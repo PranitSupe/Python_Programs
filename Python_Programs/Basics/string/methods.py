@@ -23,6 +23,24 @@ print("python is good.today is python class")
 
 print("python is good.today is python class".capitalize())
 
+print("-----------------------")
+
+#title()
+
+print("data science".title())
+
+print("-----------------------")
+
+#strip()
+
+text="   python     "
+print("orignal length :",len(text))
+print("after left strip :",len(text.lstrip()))
+print("after right strip :",len(text.rstrip()))
+print("after strip :",len(text.strip()))
+
+
+
 
 
 
