@@ -33,3 +33,13 @@ c=['d1','d2','d3']
 print(" list before clear:",c)
 c.clear()
 print(" list after clear:",c)
+
+
+
+a=[1,2,3,3,4,3,5,6]
+print("count of '3' in list: ",a.count(3))
+
+
+print("orignal list is:",a)
+a.reverse()
+print("list after reverse: ",a)
