@@ -11,8 +11,13 @@ age=input("enter your age:")
 print(f"your age is {age}")
 
 print("----------------------")
+
 #3
 
+a=int(input("enter first number:"))
+b=int(input("enter second number:"))
+
+print("sum:",a+b)
 
 print("----------------------")
 #4
