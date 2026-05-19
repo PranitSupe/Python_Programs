@@ -12,8 +12,16 @@ print("--------------------")
 
 #13 Print formatted output.
 
+name=input("enter name:")
+marks=int(input("enter marks:"))
+print(f"my name is {name}. My marks are {marks}")
 print("--------------------")
-#14
+
+#14 Print special characters using escape sequences.
+
+print("hello\nworld")
+print("hello\tworld")
 print("--------------------")
+
 #15
 print("--------------------")
