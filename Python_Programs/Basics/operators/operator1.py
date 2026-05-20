@@ -43,10 +43,10 @@ b=3
 print("Modulus:",a%b)
 print("------------------")
 
-#7 Exponent Operator
+
+#7 Exponentiation operator
 
 a=10
 b=3
 print("Exponent:",a**b)
-
 print("------------------")
