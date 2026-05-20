@@ -40,10 +40,18 @@ print("b=",b)
 print("Bitwise AND operation:",a & b)
 print("-------------------------")
 
-#1. Bitwise OR
+#2. Bitwise OR
 a=5
 b=3
 print("a=",a)
 print("b=",b)
 print("Bitwise OR operation:",a | b)
+print("-------------------------")
+
+#3. Bitwise XOR
+a=5
+b=3
+print("a=",a)
+print("b=",b)
+print("Bitwise XOR operation:",a ^ b)
 print("-------------------------")
