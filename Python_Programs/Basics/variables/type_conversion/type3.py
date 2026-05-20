@@ -1,7 +1,7 @@
 #11 Convert integer to boolean.
 
 num=1
-result= bool(num)
+result=bool(num)
 print(result)
 print(type(result))
 
@@ -20,7 +20,7 @@ print("--------------------------")
 #13 Take decimal input and convert to integer.
 
 num=input("enter decimal num:")
-result= int(float(num))
+result=int(float(num))
 print(result)
 print(type(result))
 
