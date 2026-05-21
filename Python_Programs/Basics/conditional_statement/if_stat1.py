@@ -39,5 +39,4 @@ print("----------------------")
 name=input("enter your name:")
 if name=="pranit":
     print("welcome pranit")
-    
 print("----------------------")
