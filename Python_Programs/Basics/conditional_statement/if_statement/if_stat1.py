@@ -36,7 +36,6 @@ print("----------------------")
 
 
 #5 Print Welcome Message
-
 name=input("enter your name:")
 if name=="pranit":
     print("welcome pranit")
