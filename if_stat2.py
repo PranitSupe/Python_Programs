@@ -32,3 +32,6 @@ if ((char>='a' and char<='z') or (char>='A' and char<='Z')):
      
 
 #5 Check Student Passed
+marks=int(input("enter marks:"))
+if marks>40:
+    print("student is passed")
