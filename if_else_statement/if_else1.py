@@ -14,3 +14,15 @@ if (num>=0):
     print(num,"is a positive number")
 else:
     print(num,"is a negative number")
+
+
+#3. Eligible for Voting:
+
+age=int(input("enter your age:")) 
+if (age>=18):
+    print("you are eligible for votting") 
+else:
+    print("you are not eligible for votting") 
+
+
+
