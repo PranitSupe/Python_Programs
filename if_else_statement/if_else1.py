@@ -35,4 +35,21 @@ if (n1>n2):
 else:
     print(n2,"is greater number")
 
-    
+#5 Pass or Fail
+
+mark=int(input("enter a marks:"))
+
+if (mark>40):
+    print("you are passed")
+else:
+    print("you are failed")
+
+#6 Divisible by 3
+
+n1=int(input("enter a number:")) 
+
+if (n1%3==0):
+    print(n1,"is divisible by 3")
+else:
+    print(n1," is not divisible by 3")
+
