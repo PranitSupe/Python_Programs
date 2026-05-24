@@ -53,3 +53,23 @@ if (n1%3==0):
 else:
     print(n1," is not divisible by 3")
 
+#7 Check Password
+
+password=input("enter a password:")
+
+if (password=="pass@123"):
+    print("login successful")
+else:
+    print("login failed")
+
+#8 Compare Two Strings:
+
+str1=input("enter a string1:")
+str2=input("enter a string2:")
+
+if(str1==str2):
+    print("both strings are same")
+else:
+    print("both strings are different")
+
+
