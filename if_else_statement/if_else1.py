@@ -82,3 +82,9 @@ else:
 
 #10 Check Number is Zero or Not:
 num=int(input("enter a number:"))
+
+if(num==0):
+    print(num,"is zero")
+else:
+    print(num,"is not zero")
+    
