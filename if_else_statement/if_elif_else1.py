@@ -87,4 +87,6 @@ elif (op=="*"):
     print("Multiplication:",n1*n2)
 elif (op=="/"):
     print("Division:",n1/n2)
+else:
+    print("invalid operator")
       
