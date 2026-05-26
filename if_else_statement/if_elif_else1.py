@@ -129,3 +129,16 @@ else:
 
 
 print("----------------------")
+
+#9 Electricity Bill Category
+
+units=int(input("enter number of units consumed:"))
+
+if units<=100:
+    print("low usage")
+elif units<=200:
+    print("medium usage")
+else:
+    print("high usage")
+
+print("----------------------")
