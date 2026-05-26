@@ -118,7 +118,7 @@ print("----------------------")
 
 #8 Check Character Type
 
-ch=input("enter a charecter")
+ch=input("enter a charecter: ")
 
 if ch.isdigit():
     print(ch,"is a digit")
@@ -142,3 +142,16 @@ else:
     print("high usage")
 
 print("----------------------")
+
+#10 Check Month Season
+
+month=input("enter a month:")
+
+if month in ["November","December","January","February"]:
+    print(month,"is in winter season")
+elif month in ["March","April","May","June"]:
+    print(month ,"is in summer season")
+elif month in ["July","August","September","October"]:
+    print(month," is in mansoon season") 
+else:
+    print("invalid month")
