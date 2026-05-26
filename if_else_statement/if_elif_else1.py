@@ -37,3 +37,29 @@ elif(marks>=40 and marks<60):
     print("grade C")
 else:
     print("Grade D")
+
+#4 Check Day Number
+
+day=int(input("enter day number(1-7):"))
+
+if(day==1):
+    print("Monday")
+elif(day==2):
+    print("Tuesday")
+elif(day==3):
+    print("Wednesday")
+elif(day==4):
+    print("Thursday")
+elif(day==5):
+    print("Friday")
+elif(day==6):
+    print("Saturday")
+elif(day==7):
+    print("Sunday")
+else:
+    print("invalid day number")
+
+    
+#5 
+
+      
