@@ -115,3 +115,17 @@ else:
     print("senior citizen")
 
 print("----------------------")
+
+#8 Check Character Type
+
+ch=input("enter a charecter")
+
+if ch.isdigit():
+    print(ch,"is a digit")
+elif ch.isalpha():
+    print(ch,"is an alphabet")
+else:
+    print(ch,"is a special character")
+
+
+print("----------------------")
