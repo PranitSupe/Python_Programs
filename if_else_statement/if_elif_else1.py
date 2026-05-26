@@ -59,7 +59,32 @@ elif(day==7):
 else:
     print("invalid day number")
 
-    
-#5 
 
+#5  Check Vowel or Consonant
+
+ch=input("enter a charecter:")
+vowels="AEIOUaeiou"
+
+if ch in vowels:
+    print(ch,"is a vowel")
+elif(ch.isalpha()):
+    print(ch,"is a consonant")
+else:
+    print(ch ,"is not an alphabet") 
+
+#6 Simple Calculator
+
+n1=int(input("enter a number:"))
+n2=int(input("enter a number:"))
+
+op=input("enter an operator (+,-,*,/):")
+
+if (op=="+"):
+    print("Addition:",n1+n2)
+elif (op=="-"):
+    print("Substraction:",n1-n2)
+elif (op=="*"):
+    print("Multiplication:",n1*n2)
+elif (op=="/"):
+    print("Division:",n1/n2)
       
