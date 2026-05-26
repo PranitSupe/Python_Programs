@@ -11,6 +11,8 @@ elif(num<0):
 else:
     print(num,"is zero")
 
+print("----------------------")
+
 #2 Find Largest of Three Numbers:
 
 num1=int(input("enter a number:"))
@@ -23,6 +25,8 @@ elif(num2>num1 and num2>num3):
     print(num2,"is a greater number")
 else:
     print(num3,"is a greater number")
+
+print("----------------------")
 
 #3 Check Grade Based on Marks:
 
@@ -37,6 +41,8 @@ elif(marks>=40 and marks<60):
     print("grade C")
 else:
     print("Grade D")
+
+print("----------------------")
 
 #4 Check Day Number
 
@@ -59,6 +65,7 @@ elif(day==7):
 else:
     print("invalid day number")
 
+print("----------------------")
 
 #5  Check Vowel or Consonant
 
@@ -71,6 +78,8 @@ elif(ch.isalpha()):
     print(ch,"is a consonant")
 else:
     print(ch ,"is not an alphabet") 
+
+print("----------------------")
 
 #6 Simple Calculator
 
@@ -90,3 +99,4 @@ elif (op=="/"):
 else:
     print("invalid operator")
       
+print("----------------------")
