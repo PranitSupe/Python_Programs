@@ -9,9 +9,9 @@ if marks>=80:
     if income<=50000:
         print("eligible for scholarship")
     else:
-        print("not eligible for scholarship")
+        print("NOT eligible for scholarship !!")
 else:
-    print("not eligible for scholarship")
+    print("NOT eligible for scholarship !")
 
 
 #2 Login System
@@ -23,9 +23,9 @@ if uid=="UserName":
     if password=="Pass@123":
         print("login Successful")
     else:
-        print("Login Failed")
+        print("Login Failed !!")
 else:
-    print("Login Failed")
+    print("Login Failed !")
 
 #3 Positive Even Number:
 
@@ -38,3 +38,18 @@ if num>0:
         print(num,"is positive number but not even")
 else:
     print(num,"is neither even nor positive")
+
+#4 Driving License Eligibility
+
+age=int(input("enter a age:"))
+
+test=input("Do you passed driving test ? (Yes/No):")
+
+if (age>=18):
+    if (test=="Yes"):
+        print("you are eligible for licence")
+    else:
+        print("you are not eligible for licence 1")
+
+else:
+    print("you are not eligible for licence 2")   
