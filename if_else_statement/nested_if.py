@@ -66,3 +66,16 @@ if amount<=balance:
         print("enter amount in multiple of 100")
 else:
     print("you have low balance")
+
+#6 Employee Bonus
+
+salary=int(input("enter your salary:"))
+experience=int(input("enter your experience years:"))
+
+if (salary>30000):
+    if (experience>=5):
+        print("you are eligible for bonus")
+    else:
+        print("youer experience is less for bonus")
+else:
+    print("you are not eligible for bonus")
