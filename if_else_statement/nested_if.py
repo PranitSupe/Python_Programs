@@ -60,7 +60,7 @@ balance=10000
 amount=int(input("enter the amount to withdrawal:"))
 
 if amount<=balance:
-    if amount % 100:
+    if amount % 100==0:
         print("withdrawal successful")
     else:
         print("enter amount in multiple of 100")
@@ -79,3 +79,16 @@ if (salary>30000):
         print("youer experience is less for bonus")
 else:
     print("you are not eligible for bonus")
+
+#7 Admission Eligibility
+
+marks=int(input("enter marks:"))
+sport=input("Does you play sport (yes/no):")
+
+if marks>=70:
+    if(sport=="yes"):
+        print("eligible for admission")
+    else:
+        print("not eligible for admission")
+else:
+    print("not eligible for admission")
