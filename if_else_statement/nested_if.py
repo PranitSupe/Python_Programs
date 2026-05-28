@@ -53,3 +53,16 @@ if (age>=18):
 
 else:
     print("you are not eligible for licence 2")   
+
+#5 ATM Withdrawal
+
+balance=10000
+amount=int(input("enter the amount to withdrawal:"))
+
+if amount<=balance:
+    if amount % 100:
+        print("withdrawal successful")
+    else:
+        print("enter amount in multiple of 100")
+else:
+    print("you have low balance")
