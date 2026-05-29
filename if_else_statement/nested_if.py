@@ -92,3 +92,20 @@ if marks>=70:
         print("not eligible for admission")
 else:
     print("not eligible for admission")
+
+#8 Number Range Check
+
+
+num=int(input("enter num:"))
+
+if num>=0:
+    if num<=50:
+        print("number between 0-50")
+    elif (num>50 and num<=100):
+        print("number between 50-100")
+    else:
+        print("number greater than 100")
+else:
+    print("number is negative")
+
+#9 
