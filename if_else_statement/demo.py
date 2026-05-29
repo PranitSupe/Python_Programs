@@ -1,12 +1,12 @@
-#Online Shopping Discount
+# Exam Eligibility
 
-amount = int(input("Enter purchase amount: "))
-member = input("Premium member? (yes/no): ")
+attendance = int(input("Enter attendance percentage: "))
+fees = input("Fees paid? (yes/no): ")
 
-if amount>=5000:
-    if member == "yes":
-        print("Extra Discount Applied")
+if attendance >= 75:
+    if fees == "yes":
+        print("Eligible for Exam")
     else:
-        print("No Extra Discount Applied")
+        print("Not Eligible for Exam")
 else:
-    print("No Extra Discount Applied")
+    print("Not Eligible for Exam")
