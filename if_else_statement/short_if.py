@@ -11,3 +11,17 @@ if age >= 18: print("Eligible for Voting")
 num=int(input("enter a number:"))
 
 if num>=0: print("positive number")
+
+#3. Check Even Number:
+
+num=int(input("enter a number:"))
+
+if num%2==0: print("even number")
+
+#4 Check Divisible by 5
+
+num=int(input("enter a number:"))
+
+if num%5==0: print("number divisible by 5")
+
+
