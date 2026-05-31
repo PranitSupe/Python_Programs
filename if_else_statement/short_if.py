@@ -24,4 +24,20 @@ num=int(input("enter a number:"))
 
 if num%5==0: print("number divisible by 5")
 
+#5 Check Voting Eligibility
 
+age =int(input("enter your age:"))
+
+if age >= 18: print("Eligible for Voting")
+
+#6 check pass
+
+marks = int(input("enter your marks:"))
+
+if marks >= 35: print("Pass")
+
+#7 Check Username
+
+username = "admin"
+
+if username == "admin": print("Welcome Admin")
