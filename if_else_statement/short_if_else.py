@@ -21,3 +21,7 @@ n2=int(input("enter num2:"))
 
 print("num1 is greater ") if n1>n2 else print("num2 is greater")
 
+#5 Check Password
+password = "python"
+print("Correct") if password == "python" else print("Wrong")
+
