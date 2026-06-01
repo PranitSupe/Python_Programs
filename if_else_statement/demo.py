@@ -1,12 +1,12 @@
-# Exam Eligibility
 
-attendance = int(input("Enter attendance percentage: "))
-fees = input("Fees paid? (yes/no): ")
+#10 Check Character
+ch=input("enter a charecter:")
+if ch.isalpha(): print("charecter is a alphabet")
 
-if attendance >= 75:
-    if fees == "yes":
-        print("Eligible for Exam")
-    else:
-        print("Not Eligible for Exam")
-else:
-    print("Not Eligible for Exam")
+#11 Check Balance
+
+balance=int(input("enter your balance:"))
+
+if balance<1000: print("low balance")
+
+
