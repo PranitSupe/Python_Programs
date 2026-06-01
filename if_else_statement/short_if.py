@@ -39,5 +39,20 @@ if marks >= 35: print("Pass")
 #7 Check Username
 
 username = "admin"
-
 if username == "admin": print("Welcome Admin")
+
+#8 check Temperature:
+temp=int(input("enter the temperature:"))
+
+if temp> 30: print("hot weather")
+
+#9 Check Number Greater Than 100
+
+num=int(input("enter a  number:"))
+
+if num>100: print("number is greater than 100")
+
+
+
+
+
