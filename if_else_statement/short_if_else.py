@@ -44,3 +44,8 @@ num = int(input("enter a number:"))
 print("divisible by 10") if num%10==0 else print("not divisible by 10")
 
 print("---------------------------------")
+
+#10 Driving license approval.
+test="pass"
+
+print("driving licence approved") if test=="pass" else print("driving licence rejected")
