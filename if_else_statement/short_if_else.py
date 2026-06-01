@@ -28,3 +28,12 @@ print("Correct") if password == "python" else print("Wrong")
 #6 Check Leap Year
 year =int(input("enter a year:"))
 print("Leap Year") if year % 4 == 0 else print("Not Leap Year")
+
+#7 Check Number is Zero
+num = int(input("enter a number:"))
+print("Zero") if num == 0 else print("Not Zero")
+
+#8 Compare Strings
+a =input("enter string 1:")
+b = input("enter string 2:")
+print("Equal") if a == b else print("Not Equal")
