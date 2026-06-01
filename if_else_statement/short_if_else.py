@@ -42,3 +42,5 @@ print("Equal") if a == b else print("Not Equal")
 
 num = int(input("enter a number:"))
 print("divisible by 10") if num%10==0 else print("not divisible by 10")
+
+print("---------------------------------")
