@@ -25,3 +25,6 @@ print("num1 is greater ") if n1>n2 else print("num2 is greater")
 password = "python"
 print("Correct") if password == "python" else print("Wrong")
 
+#6 Check Leap Year
+year =int(input("enter a year:"))
+print("Leap Year") if year % 4 == 0 else print("Not Leap Year")
