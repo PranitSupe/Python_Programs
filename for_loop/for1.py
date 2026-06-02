@@ -1,9 +1,10 @@
-## for loop
+## for loop:
 
 #1 Print numbers from 1 to 10.
 
 for i in range(1,11):
     print(i)
+
 
 #2. Print numbers from 10 to 1.
  
@@ -15,7 +16,8 @@ for i in range(10,0,-1):
 for i in range(5):
     print("pranit")
 
-#4. Print all even numbers from 1 to 20.
+
+#4. Print all even numbers from 1 to 20:
 for i in range(1,21):
     if i%2==0:
         print(i)
@@ -28,7 +30,9 @@ for i in range(1,21):
 #6 Find the sum of numbers from 1 to 100.
 
 sum=0
-for i in range(1,101):
-    sum=sum_+i
+for j in range(1,101):
+    sum=sum+j
 print("sum of numbers from 1 to 100 :",sum)
+
+
 
