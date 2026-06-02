@@ -24,3 +24,11 @@ for i in range(1,21):
 for i in range(1,21):
     if i%2!=0:
         print(i)
+
+#6 Find the sum of numbers from 1 to 100.
+
+sum=0
+for i in range(1,101):
+    sum=sum_+i
+print("sum of numbers from 1 to 100 :",sum)
+
