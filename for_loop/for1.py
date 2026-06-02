@@ -34,5 +34,22 @@ for j in range(1,101):
     sum=sum+j
 print("sum of numbers from 1 to 100 :",sum)
 
+#7 Print the multiplication table of a number.
+num=int(input("enter a number:"))
+print("Table of", num,":")
+
+for i in range(1,11):   
+    print(num,"X",i,"=",num*i)
+
+
+#8 Count how many numbers are divisible by 3 between 1 and 100.
+
+count=0
+for i in range(1,101):
+    if i%3==0:
+        count=count+1
+print("numbers divisible by 3 between 1 and 100:",count)
+
+
 
 
