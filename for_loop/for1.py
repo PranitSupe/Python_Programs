@@ -16,6 +16,8 @@ for i in range(5):
     print("pranit")
 
 #4. Print all even numbers from 1 to 20.
-
+for i in range(1,21):
+    if i%2==0:
+        print(i)
 
 #5. Print all odd numbers from 1 to 20.
