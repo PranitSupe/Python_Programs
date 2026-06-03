@@ -59,3 +59,12 @@ for i in range(1,num+1):
     fact=fact*i
 print("factorial of ",num,"is:",fact)
 
+#10 Find the sum of all even numbers from 1 to N.
+
+num=int(input("enter a number:"))
+sum1=0
+for i in range(num+1):
+    if i%2==0:
+        sum1=sum1+i
+
+print("sum=",sum1)
