@@ -68,3 +68,14 @@ for i in range(num+1):
         sum1=sum1+i
 
 print("sum=",sum1)
+
+#11. Find the sum of all odd numbers from 1 to N.
+
+
+num2=int(input("enter a number:"))
+sum=0
+for i in range(num2+1):
+    if i%2!=0:
+        sum=sum+i
+
+print("sum=",sum)
