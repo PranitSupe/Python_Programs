@@ -99,3 +99,25 @@ for i in str:
         count=count+1
 print("count of vowels in a string: ",count)
 
+#14. Print the Fibonacci series for N terms.
+
+num=input("enter a number :")
+n1=0
+n2=1
+for i in range(num+1):
+    print(n1)
+    temp=n1
+    n1=n2
+    n2=temp+n2
+
+#15 Check whether a number is prime.
+
+num=int(input("enter a number:"))
+if num<=1:
+    print("not prime")
+else:
+    for i in range(2,num):
+        if(num%i==0):
+            print(" not prime")
+    print("prime number")
+
