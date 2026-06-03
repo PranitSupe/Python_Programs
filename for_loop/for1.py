@@ -88,3 +88,14 @@ str2=""
 for i in str:
     str2= i + str2
 print(str2)
+
+#13. Count vowels in a string.
+
+
+str=input("enter a string:")
+count=0
+for i in str:
+    if i in "aeiouAEIOU":
+        count=count+1
+print("count of vowels in a string: ",count)
+
