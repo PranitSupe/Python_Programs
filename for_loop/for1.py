@@ -79,3 +79,12 @@ for i in range(num2+1):
         sum=sum+i
 
 print("sum=",sum)
+
+
+#12. Reverse a string using a for loop.
+
+str=input("enter a string:")
+str2=""
+for i in str:
+    str2= i + str2
+print(str2)
