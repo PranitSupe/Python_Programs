@@ -18,3 +18,20 @@ for i in list:
     else:
         max=max
 print("maximum:",max)
+
+#20. Find the second largest number in a list.
+list=[19,2,18,4,5,6]
+
+largest=0
+second_largest=0
+
+for i in list:
+    if i > largest:
+        second_largest=largest
+        largest=i
+    elif i > second_largest:
+        second_largest=i
+
+print("Second largest:",second_largest)
+
+
