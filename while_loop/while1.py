@@ -19,17 +19,45 @@ while(num>=1):
 print("----------------------------")
 
 
-#3. Print all even numbers from 1 to 20.
+#3. Print all even numbers from 1 to 10.
+
+num=1
+while(num<=10):
+    if num%2==0:
+        print(num)
+    num=num+1
 
 print("----------------------------")
 
 
 #4. Print all odd numbers from 1 to 20.
+
+num=1
+while(num<=10):
+    if num%2!=0:
+        print(num)
+    num=num+1
+
+
 print("----------------------------")
 
 
 #5. Find the sum of numbers from 1 to 100.
+
+sum=0
+num=1
+while(num<=10):
+    sum=sum+num
+    num=num+1
+print(sum)
+
 print("----------------------------")
 
 #6. Print your name 5 times.
+
+name="Pranit"
+num=1
+while(num<=5):
+    print(name)
+    
 print("----------------------------")
