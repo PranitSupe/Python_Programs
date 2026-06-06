@@ -64,6 +64,12 @@ print("----------------------------")
 
 #7. Print the multiplication table of a given number.
 
+num=5
+i=1
+while(i>=10):
+    print(num,"X",i,"=",(num*i))
+    i=i+1
+
 print("----------------------------")
 
 #8. Count the number of digits in a number.
