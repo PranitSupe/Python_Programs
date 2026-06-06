@@ -61,3 +61,31 @@ while(num<=5):
     print(name)
     
 print("----------------------------")
+
+#7. Print the multiplication table of a given number.
+
+print("----------------------------")
+
+#8. Count the number of digits in a number.
+
+print("----------------------------")
+
+#9. Find the sum of digits of a number.
+
+print("----------------------------")
+
+#10. Reverse a number.
+
+print("----------------------------")
+
+#11. Check whether a number is a palindrome.
+
+print("----------------------------")
+
+#12. Find the factorial of a number.
+
+print("----------------------------")
+
+#13. Keep taking input until the user enters 0.
+
+print("----------------------------")
