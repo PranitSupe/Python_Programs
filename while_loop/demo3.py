@@ -20,6 +20,15 @@ print("----------------------------")
 
 #9. Find the sum of digits of a number.
 
+num = 123
+sum = 0
+
+while num > 0:
+    rem = num % 10          # Extract the last digit
+    sum =sum + rem      # Add it to the sum
+    num = num // 10         # Remove the last digit
+print("sum of digit:",sum)
+
 number=input("enter a number:")
 sum=0
 for i in number:
