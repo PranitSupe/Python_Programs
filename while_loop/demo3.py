@@ -20,6 +20,13 @@ print("----------------------------")
 
 #9. Find the sum of digits of a number.
 
+number=input("enter a number:")
+sum=0
+for i in number:
+    sum=sum+int(i)
+print("sum of digit in number:",sum)
+
+
 print("----------------------------")
 
 #10. Reverse a number.
