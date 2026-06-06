@@ -10,6 +10,12 @@ print("----------------------------")
 
 #8. Count the number of digits in a number.
 
+number=input("enter a number:")
+i=1
+while(i<=len(number)-1):
+    i=i+1
+print("number of digit in number:",i)
+
 print("----------------------------")
 
 #9. Find the sum of digits of a number.
