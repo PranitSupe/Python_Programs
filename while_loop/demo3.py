@@ -70,4 +70,5 @@ print("----------------------------")
 
 #15. Check whether a number is an Armstrong number.
 
+
 print("----------------------------")
