@@ -36,11 +36,19 @@ num=5
 while(num>=1):
     fact=fact*num
     num=num-1
-print(fact)
+print("factorial is:",fact)
 
 
 print("----------------------------")
 
 #13. Keep taking input until the user enters 0.
+
+num=int(input("enter a number:"))
+print("number is:",num)
+
+while(num!=0):
+    num=int(input("enter a number:"))
+    print("number is:",num)
+     
 
 print("----------------------------")
