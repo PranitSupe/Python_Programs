@@ -13,13 +13,14 @@ print("----------------------------")
 #11. Check whether a number is a palindrome.
 
 num=123
+orignal_num=num
 rev = 0
 while num > 0:
     last_digit = num % 10              #last_digit=3     #last_digit=2    #last_digit=1  
     rev = (rev * 10) + last_digit      #rev=3            #rev=32          #rev=321
     num = num // 10                    #num=12           #num=1           #num=0
 
-if num==rev:
+if orignal_num==rev:
     print("number is pelindrome")
 else:
     print("number is not pelindrome")
@@ -29,6 +30,14 @@ else:
 print("----------------------------")
 
 #12. Find the factorial of a number.
+
+fact=1
+num=5
+while(num>=1):
+    fact=fact*num
+    num=num-1
+print(fact)
+
 
 print("----------------------------")
 
