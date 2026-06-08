@@ -49,6 +49,25 @@ print("number is:",num)
 while(num!=0):
     num=int(input("enter a number:"))
     print("number is:",num)
-     
+
+print("----------------------------")
+
+#14. Generate Fibonacci series up to N terms.
+
+
+num=int(input("enter a number :"))
+n1=0
+n2=1
+n=1
+while(n<=num):
+    print(n1)
+    temp=n1
+    n1=n2
+    n2=temp+n2
+    n=n+1
+
+print("----------------------------")
+
+#15. Check whether a number is an Armstrong number.
 
 print("----------------------------")
