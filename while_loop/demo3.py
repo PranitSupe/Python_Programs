@@ -2,11 +2,13 @@
 
 #15. Check whether a number is an Armstrong number.
 
-num=123
-orignal_num=num
+number = 153         
+temp = number        
+total_sum = 0 
 
-length=len(num)
-print(length)
+n = len(str(number))
+print(n)
+
 
 
 print("----------------------------")
