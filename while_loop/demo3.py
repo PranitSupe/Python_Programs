@@ -72,3 +72,9 @@ print("----------------------------")
 
 
 print("----------------------------")
+
+
+#16. Find the largest digit in a number.
+
+
+#17. Find the product of all digits in a number.
