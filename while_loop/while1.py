@@ -88,8 +88,8 @@ num = 123
 sum = 0
 
 while num > 0:
-    rem = num % 10          # Extract the last digit
-    sum =sum + rem      # Add it to the sum
+    digit = num % 10          # Extract the last digit
+    sum =sum + digit      # Add it to the sum
     num = num // 10         # Remove the last digit
 print("sum of digit:",sum)
 
@@ -106,8 +106,8 @@ print("----------------------------")
 num=123
 rev = 0
 while num > 0:
-    last_digit = num % 10
-    rev = (rev * 10) + last_digit
+    digit = num % 10
+    rev = (rev * 10) + digit
     num = num // 10
 print("reversed number",rev)
 
@@ -119,8 +119,8 @@ num=123
 orignal_num=num
 rev = 0
 while num > 0:
-    last_digit = num % 10              #last_digit=3     #last_digit=2    #last_digit=1  
-    rev = (rev * 10) + last_digit      #rev=3            #rev=32          #rev=321
+    digit = num % 10              #last_digit=3     #last_digit=2    #last_digit=1  
+    rev = (rev * 10) + digit      #rev=3            #rev=32          #rev=321
     num = num // 10                    #num=12           #num=1           #num=0
 
 if orignal_num==rev:

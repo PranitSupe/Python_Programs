@@ -4,12 +4,19 @@
 
 number = 153         
 temp = number        
-total_sum = 0 
+sum = 0 
 
 n = len(str(number))
-print(n)
 
+while (temp > 0):
+    digit = temp % 10
+    sum =sum + (digit ** n)
+    temp = temp // 10
 
+if sum == number:
+    print(f"{number} is an Armstrong number.")
+else:
+    print(f"{number} is not an Armstrong number.")
 
 print("----------------------------")
 
