@@ -23,5 +23,18 @@ print("----------------------------")
 
 #16. Find the largest digit in a number.
 
+number = 15389        
+temp = number        
+max=0
 
-#17. Find the product of all digits in a number.
+while (temp > 0):
+    digit = temp % 10
+    temp = temp // 10
+    if digit>max:
+        max=digit
+    else:
+        max=max
+
+print("maximum number:",max)
+
+#17. Find the product of all digits in a number
