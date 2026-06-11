@@ -27,13 +27,46 @@ class Employee:
 class Student:
     pass
 
+print(type(Student))
+
 print("----------------------------------------------")
 
 #Intermediate
 
 #6.Create classes Car, Bike, and Bus in one program.
+
+class Car:
+    pass
+
+class Bike:
+    pass
+
+class Bus:
+    pass
+
+
+
 #7.Create a class named Hospital and print the class itself.
+
+class Hospital:
+    pass
+
+print(Hospital)
+
+#o/p:-    <class '__main__.Hospital'>
+#         <class 'module_name.class_name'>
+#
+#  module_name = __main__
+#  class_name = Hospital
+
+
 #8.Create a class named Bank and check its type using type().
+
+class Bank:
+    pass
+
+print(type(Bank))
+
 #9.Create five different empty classes in a single file.
 #10.Create a class named Laptop and store it in another variable, then print both.
 
