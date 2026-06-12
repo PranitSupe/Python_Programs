@@ -23,5 +23,16 @@ b1=Book()
 
 #Q4.Print the object s1.
 
+class Student:
+    pass
+
+s1=Student()
+print(s1)
 
 #Q5.Print the type of object s1.
+
+class Student:
+    pass
+
+s1=Student()
+print(type(s1))
