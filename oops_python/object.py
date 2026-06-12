@@ -29,6 +29,8 @@ class Student:
 s1=Student()
 print(s1)
 
+print("----------------------------")
+
 #Q5.Print the type of object s1.
 
 class Student:
@@ -36,3 +38,47 @@ class Student:
 
 s1=Student()
 print(type(s1))
+print(Student)
+
+
+print("----------------------------")
+
+#Q6.Create two objects of class Student.
+#s1 = Student()
+#s2 = Student()
+#Print both.
+
+class Student:
+    pass
+
+s1=Student()
+s2=Student()
+print(s1)
+print(s2)
+
+
+print("----------------------------")
+
+#Q7.Create three objects of class Car.
+
+#Q8.Print memory addresses using:
+print(id(s1))
+print(id(s2))
+
+print("----------------------------")
+
+#Q9
+#Check whether:
+#s1 == s2
+#returns True or False.
+
+print("----------------------------")
+
+#Q10.Create objects of three different classes.
+
+print("----------------------------")
+
+##Advanced:
+
+#Q11.Create five Student objects and store them in a list.
+
