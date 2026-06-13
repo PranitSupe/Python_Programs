@@ -59,7 +59,16 @@ print(s2)
 
 print("----------------------------")
 
-#Q7.Create three objects of class Car.
+#Q7.Create three objects of class Car
+
+class Car:
+    pass
+
+c1=Car()
+c2=Car()
+c3=Car()
+
+print("----------------------------")
 
 #Q8.Print memory addresses using:
 print(id(s1))
@@ -71,6 +80,8 @@ print("----------------------------")
 #Check whether:
 #s1 == s2
 #returns True or False.
+
+print(s1==s2)
 
 print("----------------------------")
 
