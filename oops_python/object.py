@@ -110,6 +110,50 @@ print("----------------------------")
 
 #Q11.Create five Student objects and store them in a list.
 
+list=[]
+
+class Student:
+    pass
+
+s1=Student()
+s2=Student()
+s3=Student()
+
+list.append(s1)
+list.append(s2)
+list.append(s3)
+
+print(list)
 
 
+print("-------------------------------")
 
+#Q12. Loop through the list and print each object
+
+list=[s1,s2,s3]
+
+for i in list:
+    print(i)
+
+
+print("-------------------------------")
+
+#Q13.Print IDs of all objects.
+
+list=[s1,s2,s3]
+
+for i in list:
+    print(id(i))
+
+
+print("-------------------------------")
+
+#Q14.Create a function that accepts an object as parameter.
+
+
+print("-------------------------------")
+
+#Q15.Create 10 objects using a loop and store them in a list.
+
+
+print("-------------------------------")
