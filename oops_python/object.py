@@ -87,9 +87,29 @@ print("----------------------------")
 
 #Q10.Create objects of three different classes.
 
+class A:
+    pass
+
+class B:
+    pass
+
+class C:
+    pass
+
+a1=A()
+b1=B()
+c1=C()
+
+print(id(a1))
+print(id(b1))
+print(id(c1))
+
 print("----------------------------")
 
 ##Advanced:
 
 #Q11.Create five Student objects and store them in a list.
+
+
+
 
