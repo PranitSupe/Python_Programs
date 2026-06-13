@@ -150,10 +150,24 @@ print("-------------------------------")
 
 #Q14.Create a function that accepts an object as parameter.
 
+def func(obj):
+    print(obj)
+
+list=[s1,s2,s3]
+for i in list:
+    func(i)
 
 print("-------------------------------")
 
 #Q15.Create 10 objects using a loop and store them in a list.
 
+class loops:
+    pass
+list=[]
+
+for i in range(5):
+    list.append(Student())
+
+print(list)
 
 print("-------------------------------")
