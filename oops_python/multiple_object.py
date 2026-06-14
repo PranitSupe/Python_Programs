@@ -51,11 +51,54 @@ print("----------------------------------")
 ##Intermediate (6–10)
 #Q6.Create five objects of class Book.
 
+class Book:
+    pass
+
+b1=Book()
+b2=Book()
+b3=Book()
+b4=Book()
+b5=Book()
+
+
+print("----------------------------------")
+
+
 #Q7.Store five objects in a list.
+
+list=[]
+
+for i in range(5):
+    list.append(Book())
+
+print(list)
+
+
+print("----------------------------------")
+
 
 #Q8.Loop through the list and print each object.
 
+for i in list:
+    print(i)
+
+print("----------------------------------")
+
 #Q9.Loop through the list and print IDs of all objects.
+
+for i in list:
+    print(id(i))
+
+print("----------------------------------")
+
 
 #Q10.Store objects inside a dictionary.
 
+class Subject:
+    pass
+
+dict={
+    "s1":Subject(),
+    "s2":Subject(),
+    "s3":Subject()
+}
