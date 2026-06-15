@@ -140,12 +140,16 @@ class Two:
 class Three:
     pass
 
+list2=[]
 o1=One()
 t1=Two()
 t2=Three()
 
-list.append(o1)
-list.append(t1)
-list.append(t2)
+
+list2.append(o1)
+list2.append(t1)
+list2.append(t2)
+
+print(list2)
 
 
