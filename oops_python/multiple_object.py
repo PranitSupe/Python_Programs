@@ -102,3 +102,13 @@ dict={
     "s2":Subject(),
     "s3":Subject()
 }
+
+
+#Q11.Create 10 Student objects using a loop.
+
+#Q12.Store all objects in a list and print them.
+
+#Q13.Count the number of objects created manually.
+
+#Q14.Create objects of different classes and store them in one list.
+
