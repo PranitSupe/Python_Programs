@@ -106,6 +106,12 @@ dict={
 
 #Q11.Create 10 Student objects using a loop.
 
+class Ten:
+    pass
+
+for i in range(10):
+    print(Ten())
+
 #Q12.Store all objects in a list and print them.
 
 #Q13.Count the number of objects created manually.
