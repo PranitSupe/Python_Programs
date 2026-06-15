@@ -114,7 +114,38 @@ for i in range(10):
 
 #Q12.Store all objects in a list and print them.
 
+list=[]
+
+for i in range(5):
+    list.append(Book())
+
+
+
 #Q13.Count the number of objects created manually.
 
+count=0
+
+for i in list:
+    count=count+1
+    
+print(count)
+
+
 #Q14.Create objects of different classes and store them in one list.
+
+class One:
+    pass
+class Two:
+    pass
+class Three:
+    pass
+
+o1=One()
+t1=Two()
+t2=Three()
+
+list.append(o1)
+list.append(t1)
+list.append(t2)
+
 
