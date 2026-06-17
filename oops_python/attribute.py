@@ -12,6 +12,14 @@ s1.name="Pranit"
 #Q2.Create a Car object and add a brand attribute.
 
 
+class Car:
+    pass
+
+c1=Car()
+
+c1.brand="BMW"
+
+
 #Q3.Create a Book object and add a title attribute.
 
 
