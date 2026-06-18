@@ -254,14 +254,59 @@ print("-----------------------------------------")
 
 # Example:
 
-# if s1.name == s2.name:
-#     print("Same")
-# else:
-#     print("Different")
+if (s1.name == s2.name):
+    print("Same")
+else:
+    print("Different")
+
+    
+print("-----------------------------------------")
+
 
 #Q15.Create a mini Student Record System.
 #Store for each student:
 #name,age,marks
 #Store 3 students in a list and display all records.
 
+list=[]
 
+class Student:
+    def __init__(self,name):
+        self.name=name
+
+    def store(self):
+        list.append(self.name)
+
+    def display(self):
+        print(list)     
+
+
+s1=Student("pranit")
+s1.store()
+s1.display()
+
+
+print("-----------------------------------------")
+
+class Student:
+    pass
+
+students = []
+
+for i in range(3):
+
+    s = Student()
+
+    s.name = input("Enter Name: ")
+    s.age = int(input("Enter Age: "))
+    s.marks = float(input("Enter Marks: "))
+
+    students.append(s)
+
+print("\nStudent Records")
+
+for student in students:
+    print(
+        s.name,
+        s.age,
+        s.marks)
