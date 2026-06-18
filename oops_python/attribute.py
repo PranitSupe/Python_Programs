@@ -117,19 +117,100 @@ print("----------------------------------")
 #Q9.Create two Student objects with different names.
 #Print both.
 
+s1=Student()
+s2=Student()
+
+s1.name="Pranit"
+s2.name="Ketan"
+
+print(s1.name)
+print(s2.name)
 
 print("----------------------------------")
+
 
 
 #Q10.Update multiple attributes of an object.
 #Example:
-#s1.name = "Pranit"
-#s1.age = 20
 
-#s1.name = "Rahul"
-#s1.age = 21
+s1=Student()
 
+s1.name = "Pranit"
+s1.age = 20
+
+s1.name = "Rahul"
+s1.age = 21
+
+print(s1.name)
+print(s1.age)
 
 print("----------------------------------")
+
+
+##Advanced (11–15)
+#Q11.Create 5 Student objects with different names.
+#Store them in a list.
+#Print all names.
+
+
+s1=Student()
+s2=Student()
+s3=Student()
+s4=Student()
+s5=Student()
+
+s1.name="Pranit"
+s2.name="Ketan"
+s3.name="Mohan"
+s4.name="Pratik"
+s5.name="Karan"
+
+print(s1.name)
+print(s2.name)
+print(s3.name)
+print(s4.name)
+print(s5.name)
+
+
+#Q12.Take student name from user input and store it as an attribute.
+#Example:
+
+class Student:
+    def __init__(self,name):
+        self.name=name
+
+    def display(self):
+        print(f"name:{self.name}")
+
+name=input("enter your name:")
+s1=Student(name)
+s1.display()
+
+
+
+
+#Q13.Create 3 Employee objects.
+# Store:
+# name
+# salary
+# Calculate total salary of all employees.
+
+
+
+
+# Q14.Create two Student objects.
+# Compare their names.
+
+# Example:
+
+# if s1.name == s2.name:
+#     print("Same")
+# else:
+#     print("Different")
+
+#Q15.Create a mini Student Record System.
+#Store for each student:
+#name,age,marks
+#Store 3 students in a list and display all records.
 
 
