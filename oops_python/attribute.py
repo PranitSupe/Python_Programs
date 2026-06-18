@@ -172,6 +172,8 @@ print(s4.name)
 print(s5.name)
 
 
+print("-----------------------------------------")
+
 #Q12.Take student name from user input and store it as an attribute.
 #Example:
 
@@ -187,6 +189,7 @@ s1=Student(name)
 s1.display()
 
 
+print("-----------------------------------------")
 
 
 #Q13.Create 3 Employee objects.
@@ -196,6 +199,54 @@ s1.display()
 # Calculate total salary of all employees.
 
 
+class Employee:
+   pass
+
+e1=Employee()
+e1.name="rajesh"
+e1.salary=40000
+
+e2=Employee()
+e2.name="ramesh"
+e2.salary=45000
+
+e3=Employee()
+e3.name="mohan"
+e3.salary=45000
+
+total_salary=e1.salary + e2.salary + e3.salary
+print(f"total Salary:{total_salary}")
+
+
+print("-----------------------------------------")
+
+
+class Employee:
+    total_salary = 0
+
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def calculate(self):
+        Employee.total_salary = Employee.total_salary + self.salary
+        
+    def display(self):
+        print(f"total salary: {Employee.total_salary}")
+        
+
+e1 = Employee("rahul", 40000)
+e2 = Employee("mohan", 45000)
+e3 = Employee("rohan", 35000)
+
+e1.calculate()
+e2.calculate()
+e3.calculate()
+
+e3.display()
+
+
+print("-----------------------------------------")
 
 
 # Q14.Create two Student objects.
