@@ -242,10 +242,9 @@ e3 = Employee("rohan", 35000)
 e1.calculate()
 e2.calculate()
 e3.calculate()
-
 e3.display()
 
-
+print("----------------------------------------")
 print("-----------------------------------------")
 
 
@@ -310,3 +309,5 @@ for student in students:
         s.name,
         s.age,
         s.marks)
+
+
