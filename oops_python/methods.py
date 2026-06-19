@@ -55,5 +55,11 @@ print("------------------------------------------")
 #Q5.Create a class Mobile with method ring().
 #Print:Phone Ringing...
 
+class Mobile:
+    def ring(self):
+        print("Phone Ringing...")
+
+m1=Mobile()
+m1.ring()
 
 print("------------------------------------------")
