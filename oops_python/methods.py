@@ -84,6 +84,24 @@ print("------------------------------------------")
 #add()
 #subtract()
 
+a=40
+b=20
+class Calculator:
+
+    def add(self):
+        print("addition:",a+b)
+    
+    def sub(self):
+        print("substraction:",a-b)
+
+c1=Calculator()
+c1.add()
+c1.sub()
+
+
+print("------------------------------------------")
+
+
 # Q8.Create a Rectangle class with method area().
 #Calculate area of:
 #length = 10
