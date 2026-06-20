@@ -63,3 +63,36 @@ m1=Mobile()
 m1.ring()
 
 print("------------------------------------------")
+
+
+#6.Create a Calculator class with method add().
+#Print:10 + 20 = 30
+
+class Calculator:
+    def add(self):
+        a=10
+        b=20
+        print(a+b)
+
+c1=Calculator()
+c1.add()
+
+print("------------------------------------------")
+
+
+#Q7.Create a Calculator class with methods:
+#add()
+#subtract()
+
+# Q8.Create a Rectangle class with method area().
+#Calculate area of:
+#length = 10
+#width = 5
+
+#Q9.Create a Number class with method is_even().
+#Check whether:20 is even.
+
+#Q10.Create a Student class with methods:
+#study()
+#play()
+#Call both methods.
