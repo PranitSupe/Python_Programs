@@ -104,13 +104,53 @@ print("------------------------------------------")
 
 # Q8.Create a Rectangle class with method area().
 #Calculate area of:
-#length = 10
-#width = 5
+length = 10
+width = 5
+class Rectangle:
+
+    def area(self):
+        print("area of rectangle:",length * width)
+
+
+r1=Rectangle()
+r1.area()
+
+print("------------------------------------------")
+
+
 
 #Q9.Create a Number class with method is_even().
 #Check whether:20 is even.
+
+num=20
+class Number:
+    def is_even(self):
+        if num%2==0:
+            print("number is even")
+        else:
+            print("number is odd")
+
+n1=Number()
+n1.is_even()
+
+print("------------------------------------------")
+
+
 
 #Q10.Create a Student class with methods:
 #study()
 #play()
 #Call both methods.
+
+
+class Student:
+
+    def play(self):
+        print("Student play cricket")
+    
+    def study(self):
+        print("Student do study")
+
+s1=Student()
+s1.study()
+s1.play()
