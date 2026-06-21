@@ -154,3 +154,45 @@ class Student:
 s1=Student()
 s1.study()
 s1.play()
+
+
+print("------------------------------------------")
+
+
+#Q11.Create a Calculator class with methods:
+#add()
+#subtract()
+#multiply()
+#divide()
+
+
+
+print("------------------------------------------")
+
+
+
+
+
+#Q12.Create a Bank class with methods:
+#deposit()
+#withdraw()
+#check_balance()
+#Use fixed values.
+
+#Q13.Create a ShoppingCart class with methods:
+#add_item()
+#remove_item()
+#show_cart()
+
+#Use print statements only.
+
+#Q14.Create a Library class with methods:
+#issue_book()
+#return_book()
+#show_books()
+
+#Q15.Create a StudentManagement class with methods:
+#add_student()
+#display_student()
+#delete_student()
+#Use simple print statements.
