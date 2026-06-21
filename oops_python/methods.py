@@ -166,11 +166,31 @@ print("------------------------------------------")
 #divide()
 
 
+a=40
+b=20
+class Calculator:
+
+    def add(self):
+        print("Addition:",a+b)
+    
+    def sub(self):
+        print("Substraction:",a-b)
+    
+    def multi(self):
+        print("Multiplication:",a*b)
+    
+    def div(self):
+        print("Division:",a/b)
+    
+
+c1=Calculator()
+c1.add()
+c1.sub()
+c1.multi()
+c1.div()
+
 
 print("------------------------------------------")
-
-
-
 
 
 #Q12.Create a Bank class with methods:
@@ -179,6 +199,42 @@ print("------------------------------------------")
 #check_balance()
 #Use fixed values.
 
+deposit_amount = 5000 
+withdrawal_amount = 5000 
+initial_balance = 25000 
+
+class Bank: 
+    def __init__(self, balance): 
+        self.balance = balance 
+        
+    def deposit(self, deposit_amount): 
+        print("Deposit amount is:", deposit_amount) 
+        self.balance = self.balance + deposit_amount 
+        print("Deposited successful....") 
+        
+    def withdraw(self, withdrawal_amount): 
+        print("Withdrawal amount is:", withdrawal_amount) 
+        if withdrawal_amount > self.balance:
+            print("Insufficient funds!")
+        else:
+            self.balance = self.balance - withdrawal_amount 
+            print("Withdrawal successful....") 
+        
+    def check_balance(self): 
+        print("Final balance is:", self.balance) 
+        print("-----------------------------------------") 
+
+b1 = Bank(initial_balance) 
+
+
+b1.deposit(deposit_amount) 
+b1.check_balance() 
+
+b1.withdraw(withdrawal_amount) 
+b1.check_balance()
+
+
+print("-------------------------------------")
 #Q13.Create a ShoppingCart class with methods:
 #add_item()
 #remove_item()
