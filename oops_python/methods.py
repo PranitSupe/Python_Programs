@@ -240,6 +240,40 @@ print("-------------------------------------")
 #remove_item()
 #show_cart()
 
+class ShoppingCart: 
+    def __init__(self): 
+        self.cart = [] 
+        
+    def add_item(self, item): 
+        self.cart.append(item)
+        print(f"'{item}' added to the cart.")
+
+    def remove_item(self, item): 
+        if item in self.cart:
+            self.cart.remove(item)
+            print(f"'{item}' removed from the cart.")
+        else:
+            print(f"'{item}' is not in your cart!")
+
+    def show_cart(self):
+        if not self.cart:
+            print("Your cart is empty.")
+        else:
+            for current_item in self.cart:
+                print(f"- {current_item}")
+        print("--------------------------")
+
+s1 = ShoppingCart() 
+
+s1.add_item("Laptop") 
+s1.add_item("Headphones")
+s1.show_cart() 
+
+s1.remove_item("Laptop") 
+s1.show_cart()
+
+
+
 #Use print statements only.
 
 #Q14.Create a Library class with methods:
