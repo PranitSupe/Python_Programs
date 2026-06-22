@@ -273,13 +273,30 @@ s1.remove_item("Laptop")
 s1.show_cart()
 
 
-
-#Use print statements only.
-
 #Q14.Create a Library class with methods:
 #issue_book()
 #return_book()
 #show_books()
+
+class Library:
+    def issue_book(self):
+        print("books issued.....")
+    
+    def return_book(self):
+        print("books returned.....")
+    
+    def show_books(self):
+        print("display book.....")
+
+l1=Library()
+
+l1.issue_book()
+l1.return_book()
+l1.show_books()
+
+    
+
+
 
 #Q15.Create a StudentManagement class with methods:
 #add_student()
