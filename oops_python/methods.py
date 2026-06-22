@@ -303,3 +303,16 @@ l1.show_books()
 #display_student()
 #delete_student()
 #Use simple print statements.
+
+class StudentManagement:
+    def add_student(self):
+        print("student added successfully......")
+    def display_student(self):
+        print("student displayed successfully....... ")
+    def delete_student(self):
+        print("student deleted successfully......")
+
+s1=StudentManagement()
+s1.add_student()
+s1.display_student()
+s1.delete_student()
