@@ -1,22 +1,12 @@
-Basic (1–5)
-Q1
+##SELF
+# Basic (1–5)
+# Q1.Create a method that prints self.
 
-Create a method that prints self.
+# Q2.Create a method that prints id(self).
 
-Q2
+# Q3.Create two objects and call the same method.
 
-Create a method that prints id(self).
+# Q4.Write a program without self and observe the error.
 
-Q3
-
-Create two objects and call the same method.
-
-Q4
-
-Write a program without self and observe the error.
-
-Q5
-
-Print id(s1) outside the class and id(self) inside the method.
-
-Compare them.
+# Q5.Print id(s1) outside the class and id(self) inside the method.
+# Compare them.
