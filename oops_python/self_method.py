@@ -20,13 +20,12 @@ class greet:
 g1=greet()
 g1.to_greet()
 
-
-print("------------------------------")
+print("-----------------")
 
 
 # Q3.Create two objects and call the same method.
 
-print("------------------------------")
+print("---------------")
 
 
 # Q4.Write a program without self and observe the error.
