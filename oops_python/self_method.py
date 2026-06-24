@@ -42,10 +42,32 @@ print("------------------------------")
 
 # Q4.Write a program without self and observe the error.
 
+
+# class greet:
+#     def to_greet():                      // error occur here
+#         print("hello student.....")
+
+# g1=greet()
+# g1.to_greet()
+
+
 print("------------------------------")
 
 
 # Q5.Print id(s1) outside the class and id(self) inside the method.
 # Compare them.
+class greet:
+    def to_greet(self):
+        print(id(self))
+
+
+g1=greet()
+g1.to_greet()
+
+print(id(g1))                      # both are same 
+
+
+
+
 
 print("------------------------------")
