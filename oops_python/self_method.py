@@ -26,6 +26,17 @@ print("------------------------------")
 
 # Q3.Create two objects and call the same method.
 
+class Same:
+    def meth1(self):
+        print("method is called....")
+
+s1=Same()
+s1.meth1()
+
+s2=Same()
+s2.meth1()
+
+
 print("------------------------------")
 
 
