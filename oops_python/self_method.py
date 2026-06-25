@@ -70,28 +70,3 @@ print(id(g1))                      # both are same
 
 print("------------------------------")
 
-
-# Q6.Create a method add_name() that stores:
-# self.name = "Pranit"
-# Print it.
-
-# Q7.Store:
-# self.age = 20
-# Print it.
-
-# Q8
-# Store:
-# self.city = "Pune"
-# Print it.
-
-# Q9
-# Store three attributes using self:
-# self.name
-# self.age
-# self.city
-# Display all.
-
-# Q10
-# Create two Student objects.
-# Store different names using self.
-# Display both.
