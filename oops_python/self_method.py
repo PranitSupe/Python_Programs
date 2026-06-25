@@ -70,3 +70,82 @@ print(id(g1))                      # both are same
 
 print("------------------------------")
 
+
+# Q6.Create a method add_name() that stores:
+# self.name = "Pranit"
+# Print it.
+
+class names:
+    def add_name(self):
+        self.name="Pranit"
+        print(self.name)
+
+n1=names()
+n1.add_name()
+
+
+
+
+# Q7.Store:
+# self.age = 20
+# Print it.
+
+class S_data:
+    def add_data(self):
+        self.name="Pranit"
+        self.age=26
+        print(" Name:",self.name," Age:",self.age)
+
+n1=S_data()
+n1.add_data()
+
+
+# Q8
+# Store:
+# self.city = "Pune"
+# Print it.
+
+class S_data:
+    def add_data(self):
+        self.name="Pranit"
+        self.age=26
+        self.city="Pune"
+        print(" Name:",self.name," Age:",self.age," City:",self.city)
+
+n1=S_data()
+n1.add_data()
+
+
+# Q9
+# Store three attributes using self:
+# self.name
+# self.age
+# self.city
+# Display all.
+
+class Attributes:
+    def store_data(self):
+        self.name="Rahul"
+        self.age=25
+        self.city="Pune"
+        print(" Name:",self.name," Age:",self.age," City:",self.city)
+
+a1=Attributes()
+a1.store_data()
+
+
+# Q10
+# Create two Student objects.
+# Store different names using self.
+# Display both.
+
+class Student:
+    def add_name(self,name):
+        self.name=name
+        print("Name:",self.name)
+
+s1=Student()
+s2=Student()
+
+s1.add_name("Kedar")
+s2.add_name("Mohan")
