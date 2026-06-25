@@ -84,6 +84,7 @@ n1=names()
 n1.add_name()
 
 
+print("------------------------------")
 
 
 # Q7.Store:
@@ -100,6 +101,8 @@ n1=S_data()
 n1.add_data()
 
 
+print("------------------------------")
+
 # Q8
 # Store:
 # self.city = "Pune"
@@ -115,6 +118,8 @@ class S_data:
 n1=S_data()
 n1.add_data()
 
+
+print("------------------------------")
 
 # Q9
 # Store three attributes using self:
@@ -133,6 +138,8 @@ class Attributes:
 a1=Attributes()
 a1.store_data()
 
+print("------------------------------")
+
 
 # Q10
 # Create two Student objects.
@@ -149,3 +156,75 @@ s2=Student()
 
 s1.add_name("Kedar")
 s2.add_name("Mohan")
+
+
+print("------------------------------")
+
+
+
+# Q11.Create a BankAccount class.
+# Store:
+# self.balance = 10000
+# Display balance.
+
+
+class BankAccount:
+    def store_bal(self):
+        self.balance=10000
+    
+    def display(self):
+        print("Balence:",self.balance)
+
+b1=BankAccount()
+b1.store_bal()
+b1.display()
+
+
+
+# Q12.Create methods:
+# deposit()
+# withdraw()
+# Modify:
+# self.balance
+
+
+class BankAccount:
+    orignal_balnce=25000
+    
+    def deposit(self):
+        self.Dep_balance=10000
+        self.orignal_balnce=self.orignal_balnce + self.Dep_balance
+    
+    def withdraw(self):
+        self.With_balance=10000
+        self.orignal_balnce=self.orignal_balnce - self.With_balance
+    
+    def display(self):
+        print("Balance:",self.orignal_balnce)
+
+
+b1=BankAccount()
+b1.deposit()
+b1.display()
+b1.withdraw()
+b1.display()
+
+# Q13.Create a Product class.
+# Store:
+# self.price
+# Calculate a 10% discount.
+
+
+# Q14.Create a StudentResult class.
+# Store:
+# self.name
+# self.marks
+# Display result.
+
+# Q15.Create a Mini ATM System.
+# Methods:
+# deposit()
+# withdraw()
+# check_balance()
+# Use:
+# self.balance
