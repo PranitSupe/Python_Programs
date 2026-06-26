@@ -1,0 +1,63 @@
+# Basic (1–5)
+# Q1.Create a class Greeting.
+# When an object is created, print:
+# Welcome to Python OOP
+
+# Q2.Create a class Computer.
+# Constructor should print:
+# Computer object initialized
+
+# Q3.Create a class Movie.
+# Create three objects and observe how many times the constructor runs.
+
+# Q4.Create a class City.
+# Constructor should print:
+# Pune City Selected
+
+# Q5.Create a class Exam.
+# Print the memory address of the current object inside the constructor.
+# Hint:
+# print(id(self))
+# Intermediate (6–10)
+
+# Q6.Create a class Student.
+# Constructor should accept:
+# name
+# Display:
+# Student Name: Pranit
+
+# Q7
+# Create a class Vehicle.
+# Accept:
+# brand
+# Print:
+# Vehicle Brand: Honda
+
+# Q8
+# Create a class Restaurant.
+# Accept:
+# restaurant_name
+# city
+# Display both values.
+
+# Q9
+# Create a class Laptop.
+
+# Accept:
+
+# brand
+# RAM
+
+# Create 3 laptop objects with different configurations.
+
+# Q10
+
+# Create a class Book.
+
+# Accept:
+
+# title
+# author
+# price
+
+# Display complete book details.

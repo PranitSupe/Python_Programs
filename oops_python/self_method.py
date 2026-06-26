@@ -179,6 +179,7 @@ b1=BankAccount()
 b1.store_bal()
 b1.display()
 
+print("------------------------------")
 
 
 # Q12.Create methods:
@@ -190,7 +191,7 @@ b1.display()
 
 class BankAccount:
     orignal_balnce=25000
-    
+
     def deposit(self):
         self.Dep_balance=10000
         self.orignal_balnce=self.orignal_balnce + self.Dep_balance
@@ -209,10 +210,31 @@ b1.display()
 b1.withdraw()
 b1.display()
 
+print("------------------------------")
+
+
 # Q13.Create a Product class.
 # Store:
 # self.price
 # Calculate a 10% discount.
+
+class Product:
+    def price(self):
+        self.price=2000
+    
+    def calculate(self):
+        self.discount=(self.price-(self.price*0.1))
+
+    def display_price(self):
+        print("Price after discount:",self.discount)
+
+p1=Product()
+p1.price()
+p1.calculate()
+p1.display_price()
+
+print("------------------------------")
+
 
 
 # Q14.Create a StudentResult class.
@@ -221,6 +243,22 @@ b1.display()
 # self.marks
 # Display result.
 
+class StudentResult:
+    def store(self):
+        self.name="rakesh"
+        self.marks=89
+
+    def display(self):
+        print("Name:",self.name)
+        print("marks:",self.marks)
+
+s1=StudentResult()
+s1.store()
+s1.display()
+
+print("------------------------------")
+
+
 # Q15.Create a Mini ATM System.
 # Methods:
 # deposit()
@@ -228,3 +266,32 @@ b1.display()
 # check_balance()
 # Use:
 # self.balance
+
+class BankAccount:
+    def balance(self,balance):
+        self.orignal_balnce=balance
+
+    def deposit(self,amount):
+        self.Dep_balance=amount
+        self.orignal_balnce=self.orignal_balnce + self.Dep_balance
+    
+    def withdraw(self,amount):
+        self.With_balance=amount
+        self.orignal_balnce=self.orignal_balnce - self.With_balance
+    
+    def check_bal(self):
+        print("Balance is :",self.orignal_balnce)
+
+
+b1=BankAccount()
+b1.balance(25000)
+
+b1.deposit(10000)
+b1.check_bal()
+
+b1.withdraw(5000)
+b1.check_bal()
+
+
+
+print("------------------------------")
