@@ -27,6 +27,14 @@ c1=Computer()
 # Q3.Create a class Movie.
 # Create three objects and observe how many times the constructor runs.
 
+class Movie:
+    def __init__(self):
+        print("Movie object initialized")
+
+m1=Movie()
+m2=Movie()
+m3=Movie()
+
 # Q4.Create a class City.
 # Constructor should print:
 # Pune City Selected
