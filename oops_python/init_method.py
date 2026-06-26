@@ -15,6 +15,15 @@ g1=Greeting()
 # Constructor should print:
 # Computer object initialized
 
+class Computer:
+    def __init__(self):
+        print(" Computer object initialized")
+
+c1=Computer()
+
+
+
+
 # Q3.Create a class Movie.
 # Create three objects and observe how many times the constructor runs.
 
