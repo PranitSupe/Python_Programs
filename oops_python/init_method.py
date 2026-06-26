@@ -3,6 +3,14 @@
 # When an object is created, print:
 # Welcome to Python OOP
 
+class Greeting:
+    def __init__(self):
+        print(" Welcome to Python OOP")
+
+g1=Greeting()
+
+
+
 # Q2.Create a class Computer.
 # Constructor should print:
 # Computer object initialized
