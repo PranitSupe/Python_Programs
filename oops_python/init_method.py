@@ -9,7 +9,7 @@ class Greeting:
 
 g1=Greeting()
 
-
+print("=====================================")
 
 # Q2.Create a class Computer.
 # Constructor should print:
@@ -23,6 +23,7 @@ c1=Computer()
 
 
 
+print("=====================================")
 
 # Q3.Create a class Movie.
 # Create three objects and observe how many times the constructor runs.
@@ -35,6 +36,9 @@ m1=Movie()
 m2=Movie()
 m3=Movie()
 
+
+print("=====================================")
+
 # Q4.Create a class City.
 # Constructor should print:
 # Pune City Selected
@@ -46,6 +50,7 @@ class City:
 
 c1=City()
 
+print("=====================================")
 
 # Q5.Create a class Exam.
 # Print the memory address of the current object inside the constructor.
@@ -59,6 +64,7 @@ class Exam:
 
 e1=Exam()
 
+print("=====================================")
 
 # Q6.Create a class Student.
 # Constructor should accept:
@@ -72,6 +78,7 @@ class Student:
 
 s1=Student("pranit")
 
+print("=====================================")
 
 
 # Q7
@@ -86,6 +93,7 @@ class Vehicle:
 v1=Vehicle("Honda")
 
 
+print("=====================================")
 
 
 # Q8
@@ -102,6 +110,7 @@ class Restaurant:
 r1=Restaurant("Panchali","Pune")
 
 
+print("=====================================")
 
 # Q9
 # Create a class Laptop.
@@ -113,6 +122,8 @@ r1=Restaurant("Panchali","Pune")
 
 # Create 3 laptop objects with different configurations.
 
+
+print("=====================================")
 # Q10
 
 # Create a class Book.
@@ -124,3 +135,6 @@ r1=Restaurant("Panchali","Pune")
 # price
 
 # Display complete book details.
+
+
+print("=====================================")
