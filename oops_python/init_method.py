@@ -53,6 +53,13 @@ c1=City()
 # print(id(self))
 # Intermediate (6–10)
 
+class Exam:
+    def __init__(self):
+        print(id(self))
+
+e1=Exam()
+
+
 # Q6.Create a class Student.
 # Constructor should accept:
 # name
