@@ -66,12 +66,27 @@ e1=Exam()
 # Display:
 # Student Name: Pranit
 
+class Student:
+    def __init__(self,name):
+        print(f"Name:{name}")
+
+s1=Student("pranit")
+
+
+
 # Q7
 # Create a class Vehicle.
-# Accept:
-# brand
-# Print:
-# Vehicle Brand: Honda
+# Accept: brand
+# Print: Vehicle Brand: Honda
+
+class Vehicle:
+    def __init__(self,Brand):
+        print(f"Brand:{Brand}")
+
+v1=Vehicle("Honda")
+
+
+
 
 # Q8
 # Create a class Restaurant.
@@ -79,6 +94,14 @@ e1=Exam()
 # restaurant_name
 # city
 # Display both values.
+
+class Vehicle:
+    def __init__(self,Brand):
+        print(f"Brand:{Brand}")
+
+v1=Vehicle("Honda")
+
+
 
 # Q9
 # Create a class Laptop.
