@@ -39,6 +39,14 @@ m3=Movie()
 # Constructor should print:
 # Pune City Selected
 
+
+class City:
+    def __init__(self):
+        print("Pune City Selected")
+
+c1=City()
+
+
 # Q5.Create a class Exam.
 # Print the memory address of the current object inside the constructor.
 # Hint:
