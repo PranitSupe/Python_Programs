@@ -95,11 +95,11 @@ v1=Vehicle("Honda")
 # city
 # Display both values.
 
-class Vehicle:
-    def __init__(self,Brand):
-        print(f"Brand:{Brand}")
+class Restaurant:
+    def __init__(self,restaurant_name,city):
+        print(f"Restaurant name:{restaurant_name} , City: {city}")
 
-v1=Vehicle("Honda")
+r1=Restaurant("Panchali","Pune")
 
 
 
