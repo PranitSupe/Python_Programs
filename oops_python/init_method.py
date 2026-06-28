@@ -130,16 +130,13 @@ l3=Laptop("Dell","8GB")
 
 
 print("=====================================")
+
 # Q10
-
 # Create a class Book.
-
 # Accept:
-
 # title
 # author
 # price
-
 # Display complete book details.
 
 class book:
@@ -150,3 +147,71 @@ b1=book("Good thoughts","Rajendra Singh", 450)
 
 
 print("=====================================")
+
+# Q11
+
+# Create a class CricketPlayer.
+
+# Accept:
+
+# player_name
+# runs
+# matches
+
+# Create 5 players and display:
+
+# Name | Runs | Matches
+# Q12
+
+# Create a class ElectricityBill.
+
+# Accept:
+
+# customer_name
+# units_consumed
+
+# Calculate bill using:
+
+# 1 unit = ₹8
+
+# Display total amount.
+
+# Q13
+
+# Create a class BankCustomer.
+
+# Accept:
+
+# name
+# account_number
+# balance
+
+# Create multiple customers and display all details using a list.
+
+# Q14
+
+# Create a class Product.
+
+# Accept:
+
+# product_name
+# price
+
+# Automatically calculate:
+
+# GST = 18%
+# Final Price = Price + GST
+
+# inside the constructor.
+
+# Q15
+
+# Create a class BusReservation.
+
+# Accept:
+
+# passenger_name
+# seat_number
+# destination
+
+# Create 5 reservations and display all booking details.
