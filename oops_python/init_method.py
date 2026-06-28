@@ -142,5 +142,11 @@ print("=====================================")
 
 # Display complete book details.
 
+class book:
+    def __init__(self,title,author,price):
+        print(f"Title:{title} , Author: {author},Price: {price}")
+
+b1=book("Good thoughts","Rajendra Singh", 450)
+
 
 print("=====================================")
