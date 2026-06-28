@@ -128,6 +128,7 @@ l1=Laptop("Lenovo","8GB")
 l2=Laptop("Apple","16GB")
 l3=Laptop("Dell","8GB")
 
+
 print("=====================================")
 # Q10
 
