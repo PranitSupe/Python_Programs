@@ -114,14 +114,19 @@ print("=====================================")
 
 # Q9
 # Create a class Laptop.
-
 # Accept:
-
 # brand
 # RAM
-
 # Create 3 laptop objects with different configurations.
 
+
+class Laptop:
+    def __init__(self,brand,RAM):
+        print(f"Brand:{brand} , RAM: {RAM}")
+
+l1=Laptop("Lenovo","8GB")
+l2=Laptop("Apple","16GB")
+l3=Laptop("Dell","8GB")
 
 print("=====================================")
 # Q10
