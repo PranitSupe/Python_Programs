@@ -156,6 +156,18 @@ print("=====================================")
 # Create 5 players and display:
 # Name | Runs | Matches
 
+
+class CricketPlayer:
+    def __init__(self,player_name,runs,matches):
+        print(f"Player Name:{player_name} , Runs: {runs},Matches: {matches}")
+
+c1=CricketPlayer("Rohit sharma",350, 8)
+c2=CricketPlayer("Ruturaj Gaikwad",450, 7)
+c3=CricketPlayer("Virat kohali",380, 7)
+c4=CricketPlayer("Vaibhav Suryavanshi",490, 9)
+
+
+
 # Q12.Create a class ElectricityBill.
 # Accept:
 # customer_name
