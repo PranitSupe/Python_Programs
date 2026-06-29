@@ -166,7 +166,7 @@ c2=CricketPlayer("Ruturaj Gaikwad",450, 7)
 c3=CricketPlayer("Virat kohali",380, 7)
 c4=CricketPlayer("Vaibhav Suryavanshi",490, 9)
 
-
+print("=======================================================")
 
 # Q12.Create a class ElectricityBill.
 # Accept:
@@ -175,6 +175,14 @@ c4=CricketPlayer("Vaibhav Suryavanshi",490, 9)
 # Calculate bill using:
 # 1 unit = ₹8
 # Display total amount.
+
+class ElectricityBill:
+    def __init__(self,customer_name,units_consumed):
+        print(f"customer_name:{customer_name} , units_consumed: {units_consumed}")
+        print(f"Total Bill:",units_consumed*8)
+
+e1=ElectricityBill("Rohit sharma",50)
+
 
 # Q13.Create a class BankCustomer.
 # Accept:
