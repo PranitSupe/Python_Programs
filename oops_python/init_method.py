@@ -214,8 +214,8 @@ print("=======================================================")
 # Final Price = Price + GST
 # inside the constructor.
 
-e1=BankCustomer("Mohit sharma",34150057,35000)
 
+print("=======================================================")
 
 # Q15.Create a class BusReservation.
 # Accept:
@@ -223,3 +223,5 @@ e1=BankCustomer("Mohit sharma",34150057,35000)
 # seat_number
 # destination
 # Create 5 reservations and display all booking details.
+
+print("=======================================================")
