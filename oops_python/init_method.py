@@ -191,6 +191,15 @@ e1=ElectricityBill("Rohit sharma",50)
 # balance
 # Create multiple customers and display all details using a list.
 
+
+class ElectricityBill:
+    def __init__(self,customer_name,units_consumed):
+        print(f"customer_name:{customer_name} , units_consumed: {units_consumed}")
+        print(f"Total Bill:",units_consumed*8)
+
+e1=ElectricityBill("Rohit sharma",50)
+
+
 # Q14.Create a class Product.
 # Accept:
 # product_name
