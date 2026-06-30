@@ -192,6 +192,14 @@ e1=ElectricityBill("Rohit sharma",50)
 # Create multiple customers and display all details using a list.
 
 
+class BankCustomer:
+    def __init__(self,name,account_number,balance):
+        print(f"name:{name} , account_number: {account_number}, balance: {balance}")
+        
+
+e1=BankCustomer("Rohit sharma",34150050,25000)
+e1=BankCustomer("Mohit sharma",34150057,35000)
+
 # Q14.Create a class Product.
 # Accept:
 # product_name
