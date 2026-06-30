@@ -183,6 +183,8 @@ class ElectricityBill:
 
 e1=ElectricityBill("Rohit sharma",50)
 
+print("=======================================================")
+
 
 # Q13.Create a class BankCustomer.
 # Accept:
@@ -198,7 +200,10 @@ class BankCustomer:
         
 
 e1=BankCustomer("Rohit sharma",34150050,25000)
-e1=BankCustomer("Mohit sharma",34150057,35000)
+e2=BankCustomer("Mohit sharma",34150057,35000)
+e3=BankCustomer("Ketan sharma",34150067,30000)
+
+print("=======================================================")
 
 # Q14.Create a class Product.
 # Accept:
