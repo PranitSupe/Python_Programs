@@ -215,6 +215,16 @@ print("=======================================================")
 # inside the constructor.
 
 
+class Product:
+    def __init__(self,product_name,price):
+        print(f"name:{name} , account_number: {account_number}, balance: {balance}")
+        
+
+e1=BankCustomer("Rohit sharma",34150050,25000)
+e2=BankCustomer("Mohit sharma",34150057,35000)
+e3=BankCustomer("Ketan sharma",34150067,30000)
+
+
 print("=======================================================")
 
 # Q15.Create a class BusReservation.
