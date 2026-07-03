@@ -139,7 +139,7 @@ print("=====================================")
 # price
 # Display complete book details.
 
-class book:
+class book: 
     def __init__(self,title,author,price):
         print(f"Title:{title} , Author: {author},Price: {price}")
 
@@ -209,7 +209,7 @@ print("=======================================================")
 # Accept:
 # product_name
 # price
-# Automatically calculate:
+# Automatically calculate: 
 # GST = 18%
 # Final Price = Price + GST
 # inside the constructor.
@@ -217,12 +217,14 @@ print("=======================================================")
 
 class Product:
     def __init__(self,product_name,price):
-        print(f"name:{name} , account_number: {account_number}, balance: {balance}")
-        
+        print(f"product_name:{product_name} , price: {price}")
+        GST=0.18
+        final_price=price+(price*GST)
+        print(f"Final price after GST: {final_price}")
 
-e1=BankCustomer("Rohit sharma",34150050,25000)
-e2=BankCustomer("Mohit sharma",34150057,35000)
-e3=BankCustomer("Ketan sharma",34150067,30000)
+
+e1=Product("laptop",35000)
+
 
 
 print("=======================================================")
