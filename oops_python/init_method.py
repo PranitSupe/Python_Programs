@@ -236,17 +236,23 @@ print("=======================================================")
 # destination
 # Create 5 reservations and display all booking details.
 
+class BusReservation:
 
-class BankCustomer:
-    def __init__(self,name,account_number,balance):
-        print(f"name:{name} , account_number: {account_number}, balance: {balance}")
-        
+    def __init__(self, passenger_name, seat_number, destination):
+        self.passenger_name = passenger_name
+        self.seat_number = seat_number
+        self.destination = destination
 
-e1=BankCustomer("Rohit sharma",34150050,25000)
-e2=BankCustomer("Mohit sharma",34150057,35000)
-e3=BankCustomer("Ketan sharma",34150067,30000)
+        print("Passenger :", self.passenger_name)
+        print("Seat      :", self.seat_number)
+        print("Destination:", self.destination)
+        print()
 
-
+b1 = BusReservation("Pranit", 12, "Mumbai")
+b2 = BusReservation("Rahul", 15, "Pune")
+b3 = BusReservation("Amit", 18, "Nashik")
+b4 = BusReservation("Neha", 22, "Kolhapur")
+b5 = BusReservation("Priya", 30, "Nagpur")
 
 
 print("=======================================================")
