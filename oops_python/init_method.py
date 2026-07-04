@@ -236,4 +236,17 @@ print("=======================================================")
 # destination
 # Create 5 reservations and display all booking details.
 
+
+class BankCustomer:
+    def __init__(self,name,account_number,balance):
+        print(f"name:{name} , account_number: {account_number}, balance: {balance}")
+        
+
+e1=BankCustomer("Rohit sharma",34150050,25000)
+e2=BankCustomer("Mohit sharma",34150057,35000)
+e3=BankCustomer("Ketan sharma",34150067,30000)
+
+
+
+
 print("=======================================================")
