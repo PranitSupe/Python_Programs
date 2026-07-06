@@ -45,15 +45,16 @@ print("=======================================")
 # Class Variable:
 # brand = "Samsung"
 
-class Employee:
-    company = "TCS"
+class Mobile:
+    brand = "Samsung"
 
-    def __init__(self,employee_name):
-        self.employee_name=employee_name
-        print(f"Employee Name:{self.employee_name}")
-        print(f"Company:{Employee.company}")
+    def __init__(self,model): 
+        self.model=model 
+        print(f"Model Name:{self.model}")
+        print(f"Brand:{Mobile.brand}")
 
-s1=Employee("Ketan wagh")
+s1=Mobile("Samsung Galaxy S20")
+
 
 print("=======================================")
 
