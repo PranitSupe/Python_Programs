@@ -60,13 +60,30 @@ print("=======================================")
 
 
 
-
-
 # Q4.Create a Car class.
 # Instance Variable:
 # color
 # Class Variable:
 # wheels = 4
+
+
+class Car:
+    wheels = 4
+
+    def __init__(self,color): 
+        self.color=color 
+        print(f"Car Color:{self.color}")
+        print(f"No of wheels:{Car.wheels}")
+
+c1=Car("RED")
+
+
+print("=======================================")
+
+
+
+
+
 
 # Q5.Create a Book class.
 # Instance Variable:
