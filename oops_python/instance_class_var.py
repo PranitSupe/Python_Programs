@@ -3,6 +3,18 @@
 # Class Variable → college = "Modern College"
 # Print both.
 
+class Student:
+    college = "Modern College"
+
+    def __init__(self,name):
+        self.name=name
+        print(f"Name:{self.name}")
+
+s1=Student("rahul")
+
+print("=======================================")
+    
+
 # Q2.Create an Employee class.
 # Instance Variable:
 # employee_name
