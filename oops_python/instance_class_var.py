@@ -3,14 +3,18 @@
 # Class Variable → college = "Modern College"
 # Print both.
 
+
+print("=======================================")
+
 class Student:
     college = "Modern College"
 
     def __init__(self,name):
         self.name=name
         print(f"Name:{self.name}")
+        print(f"College:{Student.college}")
 
-s1=Student("rahul")
+s1=Student("Rahul More")
 
 print("=======================================")
     
@@ -21,11 +25,41 @@ print("=======================================")
 # Class Variable:
 # company = "TCS"
 
+
+class Employee:
+    company = "TCS"
+
+    def __init__(self,employee_name):
+        self.employee_name=employee_name
+        print(f"Employee Name:{self.employee_name}")
+        print(f"Company:{Employee.company}")
+
+s1=Employee("Ketan wagh")
+
+print("=======================================")
+
+
 # Q3.Create a Mobile class.
 # Instance Variable:
 # model
 # Class Variable:
 # brand = "Samsung"
+
+class Employee:
+    company = "TCS"
+
+    def __init__(self,employee_name):
+        self.employee_name=employee_name
+        print(f"Employee Name:{self.employee_name}")
+        print(f"Company:{Employee.company}")
+
+s1=Employee("Ketan wagh")
+
+print("=======================================")
+
+
+
+
 
 # Q4.Create a Car class.
 # Instance Variable:
