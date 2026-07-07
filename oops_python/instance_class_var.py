@@ -81,15 +81,26 @@ c1=Car("RED")
 print("=======================================")
 
 
-
-
-
-
 # Q5.Create a Book class.
 # Instance Variable:
 # title
 # Class Variable:
 # language = "English"
+
+
+class Book:
+    language = "English"
+
+    def __init__(self,title): 
+        self.title=title 
+        print(f"Book title:{self.title}")
+        print(f"Language:{Book.language}")
+
+b1=Book("Rich Dad Poor Dad")
+
+
+print("=======================================")
+
 
 
 # Intermediate (6–10)
