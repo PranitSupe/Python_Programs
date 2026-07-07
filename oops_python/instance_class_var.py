@@ -101,6 +101,5 @@ b1=Book("Rich Dad Poor Dad")
 
 print("=======================================")
 
-
-
 # Intermediate (6–10)
+
