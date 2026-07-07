@@ -103,3 +103,41 @@ print("=======================================")
 
 # Intermediate (6–10)
 
+# Intermediate (6–10)
+# Q6
+
+# Create three students with different names but the same college.
+
+# Display all details.
+
+# Q7
+
+# Create four employees with different salaries but the same company.
+
+# Q8
+
+# Create five laptops with different RAM sizes but the same operating system.
+
+# Q9
+
+# Create three products with different prices but the same GST percentage.
+
+# Q10
+
+# Create three buses with different bus numbers but the same route.
+
+# Advanced (11–15)
+# Q11
+
+# Create a Hospital class.
+
+# Instance Variables:
+
+# patient_name
+# age
+
+# Class Variable:
+
+# hospital_name = "City Hospital"
+
+# Create 5 patients and display all details.
