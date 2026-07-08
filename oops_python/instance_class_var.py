@@ -103,14 +103,42 @@ print("=======================================")
 
 # Intermediate (6–10)
 
-# Intermediate (6–10)
-
 # Q6.Create three students with different names but the same college.
 # Display all details.
 
+class Student:
+    college ="Modern College"
+
+    def __init__(self,name):
+        self.name=name
+        print(f"Name:{self.name}, College:{Student.college}")
+
+s1=Student("Rahul More")
+s2=Student("Rohan Kedar")
+s3=Student("Mohit Patil")
+
+print("=======================================")
+
+
 # Q7.Create four employees with different salaries but the same company.
 
+class Employee:
+    company ="TCS"
+
+    def __init__(self,name):
+        self.name=name
+        print(f"Name:{self.name}, Company:{Employee.company}")
+
+e1=Employee("Atul More")
+e2=Employee("Kedar Kulkarni")
+e3=Employee("Mohit Patil")
+
+print("=======================================")
+
+
 # Q8.Create five laptops with different RAM sizes but the same operating system.
+
+
 
 # Q9.Create three products with different prices but the same GST percentage.
 
