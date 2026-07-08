@@ -139,6 +139,19 @@ print("=======================================")
 # Q8.Create five laptops with different RAM sizes but the same operating system.
 
 
+class laptop:
+    OS ="Windows 10"
+
+    def __init__(self,RAM):
+        self.RAM=RAM
+        print(f"RAM:{self.RAM}, Company:{laptop.OS}")
+
+l1=laptop("8GB")
+l2=laptop("12GB")
+l3=laptop("16GB")
+
+print("=======================================")
+
 
 # Q9.Create three products with different prices but the same GST percentage.
 
