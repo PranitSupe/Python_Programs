@@ -155,6 +155,23 @@ print("=======================================")
 
 # Q9.Create three products with different prices but the same GST percentage.
 
+
+class product:
+    GST ="18%"
+
+    def __init__(self,price):
+        self.price=price
+        print(f"Price:{self.price}, Company:{product.GST}")
+
+p1=product(2500)
+p2=product(2000)
+p3=product(1000)
+
+print("=======================================")
+
+
+
+
 # Q10.Create three buses with different bus numbers but the same route.
 
 # Advanced (11–15)
