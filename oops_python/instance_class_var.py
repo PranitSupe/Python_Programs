@@ -174,6 +174,25 @@ print("=======================================")
 
 # Q10.Create three buses with different bus numbers but the same route.
 
+
+
+class bus:
+    route ="Pune to MaNaPa"
+
+    def __init__(self,bus_number):
+        self.bus_number=bus_number
+        print(f"Bus Number:{self.bus_number}, Route:{bus.route}")
+
+b1=bus(121)
+b2=bus(120)
+b3=bus(122)
+
+print("=======================================") 
+
+
+
+
+
 # Advanced (11–15)
 
 # Q11.Create a Hospital class.
