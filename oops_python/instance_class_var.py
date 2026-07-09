@@ -199,69 +199,43 @@ print("=======================================")
 # patient_name
 # age
 # Class Variable:
-
 # hospital_name = "City Hospital"
-
 # Create 5 patients and display all details.
 
 # Q12
-
 # Create a MovieTicket class.
-
 # Instance Variables:
-
 # customer_name
 # seat_number
-
 # Class Variable:
-
 # theatre = "PVR Cinemas"
-
 # Display ticket details.
 
 # Q13
-
 # Create a LibraryBook class.
-
 # Instance Variables:
-
 # title
 # author
-
 # Class Variable:
-
 # library_name = "Central Library"
-
 # Create multiple books.
 
 # Q14
-
 # Create a TrainReservation class.
-
 # Instance Variables:
-
 # passenger_name
 # coach
-
 # Class Variable:
-
 # train_name = "Rajdhani Express"
-
 # Create 4 reservations.
 
 # Q15
-
 # Create a School class.
-
 # Instance Variables:
-
 # student_name
 # standard
 # percentage
-
 # Class Variable:
-
 # school_name = "ABC Public School"
-
 # Create 5 students and display all information.
 
