@@ -192,9 +192,7 @@ print("=======================================")
 
 # Advanced (11–15)
 
-# Q11
-
-# Create a Hospital class.
+# Q11. Create a Hospital class.
 # Instance Variables:
 # patient_name
 # age
@@ -202,8 +200,7 @@ print("=======================================")
 # hospital_name = "City Hospital"
 # Create 5 patients and display all details.
 
-# Q12
-# Create a MovieTicket class.
+# Q12. Create a MovieTicket class.
 # Instance Variables:
 # customer_name
 # seat_number
@@ -211,8 +208,7 @@ print("=======================================")
 # theatre = "PVR Cinemas"
 # Display ticket details.
 
-# Q13
-# Create a LibraryBook class.
+# Q13. Create a LibraryBook class.
 # Instance Variables:
 # title
 # author
@@ -220,8 +216,7 @@ print("=======================================")
 # library_name = "Central Library"
 # Create multiple books.
 
-# Q14
-# Create a TrainReservation class.
+# Q14. Create a TrainReservation class.
 # Instance Variables:
 # passenger_name
 # coach
@@ -229,8 +224,7 @@ print("=======================================")
 # train_name = "Rajdhani Express"
 # Create 4 reservations.
 
-# Q15
-# Create a School class.
+# Q15. Create a School class.
 # Instance Variables:
 # student_name
 # standard
