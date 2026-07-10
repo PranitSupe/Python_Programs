@@ -224,7 +224,8 @@ print("=======================================")
 # train_name = "Rajdhani Express"
 # Create 4 reservations.
 
-# Q15. Create a School class.
+
+# Q15.Create a School class.
 # Instance Variables:
 # student_name
 # standard
