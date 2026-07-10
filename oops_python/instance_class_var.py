@@ -200,6 +200,24 @@ print("=======================================")
 # hospital_name = "City Hospital"
 # Create 5 patients and display all details.
 
+
+
+
+class Hospital:
+   hospital_name = "City Hospital"
+
+   def __init__(self,patient_name,age):
+        self.patient_name=patient_name
+        self.age=age
+        print(f"Patient_name:{self.patient_name}, Age:{self.age}")
+
+b1=Hospital("Mohan More",25)
+b2=Hospital("Ketan Wagh",23)
+b3=Hospital("Lokesh Patil",25)
+
+print("=======================================") 
+
+
 # Q12. Create a MovieTicket class.
 # Instance Variables:
 # customer_name
