@@ -226,6 +226,22 @@ print("=======================================")
 # theatre = "PVR Cinemas"
 # Display ticket details.
 
+
+class MovieTicket:
+   theatre = "PVR Cinemas"
+
+   def __init__(self,customer_name,seat_number):
+        self.customer_name=customer_name
+        self.seat_number=seat_number
+        print(f"Customer_name:{self.customer_name}, Seat_number:{self.seat_number}")
+
+b1=MovieTicket("Mohan More",2)
+b2=MovieTicket("Ketan Wagh",3)
+b3=MovieTicket("Lokesh Patil",5)
+
+print("=======================================") 
+
+
 # Q13. Create a LibraryBook class.
 # Instance Variables:
 # title
