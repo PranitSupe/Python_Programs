@@ -274,6 +274,22 @@ print("=======================================")
 # train_name = "Rajdhani Express"
 # Create 4 reservations.
 
+class LibraryBook:
+  library_name = "Central Library"
+
+  def __init__(self,title,author):
+        self.title=title
+        self.author=author
+        print(f"title:{self.title}, author:{self.author}")
+
+b1=LibraryBook("Road to Success","Mohan More")
+b2=LibraryBook("Power of Money","Ketan Wagh")
+b3=LibraryBook("Lion King","Lokesh Patil")
+
+print("=======================================") 
+
+
+
 
 # Q15.Create a School class.
 # Instance Variables:
