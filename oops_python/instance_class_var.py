@@ -250,6 +250,22 @@ print("=======================================")
 # library_name = "Central Library"
 # Create multiple books.
 
+class LibraryBook:
+  library_name = "Central Library"
+
+  def __init__(self,title,author):
+        self.title=title
+        self.author=author
+        print(f"title:{self.title}, author:{self.author}")
+
+b1=LibraryBook("Road to Success","Mohan More")
+b2=LibraryBook("Power of Money","Ketan Wagh")
+b3=LibraryBook("Lion King","Lokesh Patil")
+
+print("=======================================") 
+
+
+
 # Q14. Create a TrainReservation class.
 # Instance Variables:
 # passenger_name
