@@ -315,5 +315,9 @@ class School:
 b1=School("Mohan More",7,70)
 b2=School("Ketan Wagh",6,80)
 b3=School("Lokesh Patil",7,78)
+b4=School("Amey Wagh",6,87)
+b5=School("Raghav Patil",7,68)
+
+print("=======================================") 
 
 print("=======================================") 
