@@ -209,7 +209,7 @@ class Hospital:
    def __init__(self,patient_name,age):
         self.patient_name=patient_name
         self.age=age
-        print(f"Patient_name:{self.patient_name}, Age:{self.age}")
+        print(f"Patient_name:{self.patient_name}, Age:{self.age},hospital_name:{self.hospital_name}")
 
 b1=Hospital("Mohan More",25)
 b2=Hospital("Ketan Wagh",23)
@@ -233,7 +233,7 @@ class MovieTicket:
    def __init__(self,customer_name,seat_number):
         self.customer_name=customer_name
         self.seat_number=seat_number
-        print(f"Customer_name:{self.customer_name}, Seat_number:{self.seat_number}")
+        print(f"Customer_name:{self.customer_name}, Seat_number:{self.seat_number},theater:{self.theatre}")
 
 b1=MovieTicket("Mohan More",2)
 b2=MovieTicket("Ketan Wagh",3)
@@ -256,7 +256,7 @@ class LibraryBook:
   def __init__(self,title,author):
         self.title=title
         self.author=author
-        print(f"title:{self.title}, author:{self.author}")
+        print(f"title:{self.title}, author:{self.author} ,Library Name:{self.library_name}")
 
 b1=LibraryBook("Road to Success","Mohan More")
 b2=LibraryBook("Power of Money","Ketan Wagh")
@@ -274,17 +274,18 @@ print("=======================================")
 # train_name = "Rajdhani Express"
 # Create 4 reservations.
 
-class LibraryBook:
-  library_name = "Central Library"
 
-  def __init__(self,title,author):
-        self.title=title
-        self.author=author
-        print(f"title:{self.title}, author:{self.author}")
+class TrainReservation:
+  train_name = "Rajdhani Express"
 
-b1=LibraryBook("Road to Success","Mohan More")
-b2=LibraryBook("Power of Money","Ketan Wagh")
-b3=LibraryBook("Lion King","Lokesh Patil")
+  def __init__(self,passenger_name,coach):
+        self.passenger_name=passenger_name
+        self.coach=coach
+        print(f"passenger_name:{self.passenger_name}, coach:{self.coach}, train_name:{self.train_name}")
+
+b1=TrainReservation("Mohan More",1)
+b2=TrainReservation("Ketan Wagh",2)
+b3=TrainReservation("Lokesh Patil",3)
 
 print("=======================================") 
 
@@ -300,3 +301,18 @@ print("=======================================")
 # school_name = "ABC Public School"
 # Create 5 students and display all information.
 
+
+
+class School:
+  school_name = "ABC Public School"
+
+  def __init__(self,passenger_name,coach):
+        self.passenger_name=passenger_name
+        self.coach=coach
+        print(f"passenger_name:{self.passenger_name}, coach:{self.coach}, school_name:{School.school_name}")
+
+b1=School("Mohan More",1)
+b2=School("Ketan Wagh",2)
+b3=School("Lokesh Patil",3)
+
+print("=======================================") 
