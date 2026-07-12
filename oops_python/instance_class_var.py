@@ -306,13 +306,14 @@ print("=======================================")
 class School:
   school_name = "ABC Public School"
 
-  def __init__(self,passenger_name,coach):
-        self.passenger_name=passenger_name
-        self.coach=coach
-        print(f"passenger_name:{self.passenger_name}, coach:{self.coach}, school_name:{School.school_name}")
+  def __init__(self,student_name,standard,percentage):
+        self.student_name=student_name
+        self.standard=standard
+        self.percentage=percentage
+        print(f"student_name:{self.student_name},standard:{self.standard}, percentage:{self.percentage}, school_name:{School.school_name}")
 
-b1=School("Mohan More",1)
-b2=School("Ketan Wagh",2)
-b3=School("Lokesh Patil",3)
+b1=School("Mohan More",7,70)
+b2=School("Ketan Wagh",6,80)
+b3=School("Lokesh Patil",7,78)
 
 print("=======================================") 
