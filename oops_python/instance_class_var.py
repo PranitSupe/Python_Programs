@@ -301,8 +301,6 @@ print("=======================================")
 # school_name = "ABC Public School"
 # Create 5 students and display all information.
 
-
-
 class School:
   school_name = "ABC Public School"
 
@@ -319,5 +317,6 @@ b4=School("Amey Wagh",6,87)
 b5=School("Raghav Patil",7,68)
 
 print("=======================================") 
+
 
 print("=======================================") 
