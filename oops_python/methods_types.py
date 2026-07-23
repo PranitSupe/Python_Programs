@@ -41,6 +41,17 @@ MathTools.square()
 #Instance variable: model
 #Instance method: show_model()
 
+
+class Vehicale:
+    def __init__(self,model):
+        self.model=model
+
+    def show_model(self):
+        print("model is :",self.model)
+
+v1=Vehicale("BMW")
+v1.show_model()
+
 # Q5.Create a College class with:
 # Class variable: college_name
 # Class method: display_college()
