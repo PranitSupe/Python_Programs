@@ -28,6 +28,15 @@ e1.show_name()
 
 # Q3.Create a MathTools class with a static method that prints the square of 9.
 
+class MathTools:
+
+    @staticmethod
+    def square():
+        print("square of 9 is :",(9*9))
+
+MathTools.square()
+
+
 # Q4.Create a Vehicle class with:
 #Instance variable: model
 #Instance method: show_model()
