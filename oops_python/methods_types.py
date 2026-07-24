@@ -63,8 +63,10 @@ class College:
     def display_college(cls):
         print("college name is:",cls.college_name)
 
-
+c1=College()
+c1.display_college()
 
 
 # Intermediate (6–10)
+
 # Q6.
