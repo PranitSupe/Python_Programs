@@ -56,5 +56,15 @@ v1.show_model()
 # Class variable: college_name
 # Class method: display_college()
 
+class College:
+    college_name="ABC college"
+
+    @classmethod
+    def display_college(cls):
+        print("college name is:",cls.college_name)
+
+
+
+
 # Intermediate (6–10)
 # Q6.
