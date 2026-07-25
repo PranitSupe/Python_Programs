@@ -75,6 +75,25 @@ c1.display_college()
 # Instance method to display account holder
 # Class method to display bank name
 
+
+class Bank:
+    bank_name="SBI"
+
+    def __init__(self,account_holder):
+        self.account_holder=account_holder
+
+    def display_account_holder(self):
+        print("account holder is :",self.account_holder)
+
+    @classmethod
+    def display_bank_name(cls):
+        print("bank name is :",cls.bank_name)
+
+b1=Bank("Raj")
+b1.display_account_holder()
+b1.display_bank_name()
+
+
 # Q7.Create a Temperature class with a static method that converts Celsius to Fahrenheit.
 
 # Q8.Create a Product class with:
