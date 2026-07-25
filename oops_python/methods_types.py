@@ -69,22 +69,14 @@ c1.display_college()
 
 # Intermediate (6–10)
 
-# Q6
-
-# Create a Bank class with:
-
+# Q6.Create a Bank class with:
 # Instance variable: account_holder
 # Class variable: bank_name
 # Instance method to display account holder
 # Class method to display bank name
 
-# Q7
+# Q7.Create a Temperature class with a static method that converts Celsius to Fahrenheit.
 
-# Create a Temperature class with a static method that converts Celsius to Fahrenheit.
-
-# Q8
-
-# Create a Product class with:
-
+# Q8.Create a Product class with:
 # Instance method to display product details
 # Static method to calculate a 15% discount on a given price
