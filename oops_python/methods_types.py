@@ -99,3 +99,14 @@ b1.display_bank_name()
 # Q8.Create a Product class with:
 # Instance method to display product details
 # Static method to calculate a 15% discount on a given price
+
+# Q9
+
+# Create a School class with:
+
+# Class variable: school_name
+# Instance variable: student_name
+# One instance method and one class method
+# Q10
+
+# Create a Circle class with a static method that calculates the area for a given radius.
