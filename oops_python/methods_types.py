@@ -96,6 +96,19 @@ b1.display_bank_name()
 
 # Q7.Create a Temperature class with a static method that converts Celsius to Fahrenheit.
 
+class Temperature:
+
+    @staticmethod
+    def celcious_to_farenhite(c):
+        f=(c*9/5)+32
+        print("temperature in farenhite is:",f)
+
+c1=Temperature()
+c1.celcious_to_farenhite(40)
+
+      
+
+
 # Q8.Create a Product class with:
 # Instance method to display product details
 # Static method to calculate a 15% discount on a given price
