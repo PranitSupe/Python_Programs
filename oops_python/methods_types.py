@@ -111,6 +111,24 @@ c1.celcious_to_farenhite(40)
 # Instance method to display product details
 # Static method to calculate a 15% discount on a given price
 
+class Product:
+    def __init__(self,product_details):
+        self.product_details=product_details
+
+    def display_product(self):
+        print("product details:",self.product_details)
+
+    @staticmethod
+    def discount(price):
+        discount=price*0.15
+        print("discounted price is:",discount)
+
+
+p1=Product("mobile")
+p1.display_product()
+p1.discount(10000)
+
+
 
 # Q9.Create a School class with:
 # Class variable: school_name
