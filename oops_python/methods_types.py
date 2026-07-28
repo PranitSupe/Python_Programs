@@ -149,4 +149,6 @@ class School:
         print("school name is:",cls.school_name)
 
 
-# Q10.Create a Circle class with a static method that calculates the area for a given radius.
+# Q10.Create a Circle class with a static method
+#  that calculates the area for a given radius.
+
