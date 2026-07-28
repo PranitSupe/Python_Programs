@@ -135,4 +135,18 @@ p1.discount(10000)
 # Instance variable: student_name
 # One instance method and one class method
 
+class School:
+    school_name="shivaji school"
+
+    def __init__(self,student_name):
+        self.student_name=student_name
+
+    def display_student_name(self):
+        print("student name is:",self.student_name)
+
+    @classmethod
+    def display_school_name(cls):
+        print("school name is:",cls.school_name)
+
+
 # Q10.Create a Circle class with a static method that calculates the area for a given radius.
