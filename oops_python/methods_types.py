@@ -152,12 +152,14 @@ class School:
 # Q10.Create a Circle class with a static method
 # that calculates the area for a given radius.
 
+
 class Circle:
+    @staticmethod
+    def calculate_area(radius):
+        return 3.14 * (radius ** 2)
 
-
-
-
-
+c1=Circle()
+print("Area of circle:",c1.calculate_area(5))
 
 
 # Advanced (11–15):
