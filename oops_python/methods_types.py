@@ -150,20 +150,30 @@ class School:
 
 
 # Q10.Create a Circle class with a static method
-#  that calculates the area for a given radius.
+# that calculates the area for a given radius.
 
-# Advanced (11–15)
-# Q11
+class Circle:
 
-# Create a Hospital class containing:
 
+
+
+
+
+
+# Advanced (11–15):
+
+# Q11.Create a Hospital class containing:
 # Instance variable: patient_name
 # Class variable: hospital_name
 # Static method to display emergency contact number
-# Q12
 
-# Create a Movie class containing:
 
+
+
+
+
+
+# Q12.Create a Movie class containing:
 # Instance variable: movie_name
 # Class variable: theatre_name
 # Static method that calculates ticket cost for a given number of tickets.
