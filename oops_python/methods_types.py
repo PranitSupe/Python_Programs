@@ -173,7 +173,24 @@ print("Area of circle:",c1.calculate_area(5))
 class Hospital:
     hospital_name="Apollo"
 
-    def __init__
+    def __init__(self,patient_name):
+        self.patient_name=patient_name
+
+    def display(self):
+        print("patient name:",self.patient_name)
+
+    @classmethod
+    def display2(cls):
+        print("hospital name:",cls.hospital_name)
+       
+    @staticmethod
+    def emergency_contact():
+        print("emergency contact:",108)
+
+s1=Hospital("Ravi")
+s1.emergency_contact()
+s1.display()
+Hospital.display2()
 
 
 
