@@ -170,6 +170,10 @@ print("Area of circle:",c1.calculate_area(5))
 # Static method to display emergency contact number
 
 
+class Hospital:
+    hospital_name="Apollo"
+
+    def __init__
 
 
 
