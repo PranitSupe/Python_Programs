@@ -193,10 +193,14 @@ s1.display()
 Hospital.display2()
 
 
-
-
-
 # Q12.Create a Movie class containing:
 # Instance variable: movie_name
 # Class variable: theatre_name
 # Static method that calculates ticket cost for a given number of tickets.
+
+
+class Movie:
+    theatre_name="Rahul theatre"
+
+
+    
