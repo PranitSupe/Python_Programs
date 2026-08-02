@@ -202,5 +202,18 @@ Hospital.display2()
 class Movie:
     theatre_name="Rahul theatre"
 
+def __init__(self,movie_name):
+    self.movie_name=movie_name
 
-    
+def display_movie_name(self):
+    print("movie name is:",self.movie_name)
+
+def display_theater_name(cls):
+    print("theater name is:",cls.theater_name)
+
+@staticmethod
+def ticket_cost():
+    num_of_tickets=int(input("enter number of tickets:"))
+    cost_per_ticket=150
+    total_cost=
+
