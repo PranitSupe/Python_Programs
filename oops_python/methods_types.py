@@ -225,17 +225,12 @@ m1.display_movie_name()
 Movie.display_theater_name()
 m1.ticket_cost()
 
-# Q13
-
-# Create a University class that demonstrates all three methods:
-
+# Q13.Create a University class that demonstrates all three methods:
 # Instance method → display student details
 # Class method → display university name
 # Static method → display admission helpline number
-# Q14
 
-# Create a ShoppingCart class with:
-
+# Q14.Create a ShoppingCart class with:
 # Instance method to show cart items
 # Class method to display store name
 # Static method to calculate delivery charges based on order amount
