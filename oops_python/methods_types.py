@@ -230,6 +230,35 @@ m1.ticket_cost()
 # Class method → display university name
 # Static method → display admission helpline number
 
+
+class University:
+    university_name="Mumbai University"
+
+    def __init__(self,student_name):
+        self.student_name=student_name
+
+    def display_student_name(self):
+        print("movie name is:",self.movie_name)
+
+    @classmethod
+    def display_theater_name(cls):
+        print("theater name is:",cls.theatre_name)
+
+
+    @staticmethod
+    def ticket_cost():
+        num_of_tickets=int(input("enter number of tickets:"))
+        cost_per_ticket=150
+        total_cost=cost_per_ticket*num_of_tickets
+        print("total cost is :",total_cost)
+
+m1=University("Avengers")
+m1.display_movie_name()
+University.display_theater_name()
+m1.ticket_cost()
+
+
+
 # Q14.Create a ShoppingCart class with:
 # Instance method to show cart items
 # Class method to display store name
