@@ -238,24 +238,21 @@ class University:
         self.student_name=student_name
 
     def display_student_name(self):
-        print("movie name is:",self.movie_name)
+        print("student name is:",self.student_name)
 
     @classmethod
-    def display_theater_name(cls):
-        print("theater name is:",cls.theatre_name)
+    def display_university_name(cls):
+        print("university name is:",cls.university_name)
 
 
     @staticmethod
-    def ticket_cost():
-        num_of_tickets=int(input("enter number of tickets:"))
-        cost_per_ticket=150
-        total_cost=cost_per_ticket*num_of_tickets
-        print("total cost is :",total_cost)
+    def admission_helpline():
+        print("admission helpline number is :",9778897788)
 
-m1=University("Avengers")
-m1.display_movie_name()
-University.display_theater_name()
-m1.ticket_cost()
+m1=University("Mohan")
+m1.display_student_name()
+University.display_university_name()
+m1.admission_helpline()
 
 
 
