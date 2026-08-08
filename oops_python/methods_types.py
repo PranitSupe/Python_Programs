@@ -264,5 +264,24 @@ m1.admission_helpline()
 class ShoppingCart:
     store_name="Flipkart"
 
-    def __init__(self,cart_items):
-        self.cart_items=cart_items
+    def __init__(self,cart_item):
+        self.cart_item=cart_item
+
+    def show_cart_item(self):
+        print("cart item is :",self.cart_item)
+
+    @classmethod
+    def show_store_name(cls):
+        print("store name is :",cls.store_name)
+
+    @staticmethod
+    def delivery_charges(order_amount):
+        if order_amount > 1000:
+            return 50
+        else:
+            return 100
+
+s1=ShoppingCart("mobile")
+s1.show_cart_item()
+ShoppingCart.show_store_name()
+print("Delivery charges:", s1.delivery_charges(1500))
