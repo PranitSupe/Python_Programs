@@ -261,3 +261,8 @@ m1.admission_helpline()
 # Class method to display store name
 # Static method to calculate delivery charges based on order amount
 
+class ShoppingCart:
+    store_name="Flipkart"
+
+    def __init__(self,cart_items):
+        self.cart_items=cart_items
