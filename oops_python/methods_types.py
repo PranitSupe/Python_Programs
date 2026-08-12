@@ -286,16 +286,14 @@ s1.show_cart_item()
 ShoppingCart.show_store_name()
 print("Delivery charges:", s1.delivery_charges(1500))
 
+
 # Q13.Create a University class that demonstrates all three methods:
 # Instance method → display student details
 # Class method → display university name
 # Static method → display admission helpline number
 
-# Q14
 
-# Create a ShoppingCart class with:
-
+# Q14.Create a ShoppingCart class with:
 # Instance method to show cart items
 # Class method to display store name
-# Static method to calculate delivery charges based on order amount
-# Q15
+# Static method to calculate delivery charges based on order amount.
